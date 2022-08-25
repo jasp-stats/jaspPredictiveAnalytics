@@ -474,7 +474,7 @@ Form
 
 		Group
 		{
-			enabled: bmaEnabled.checked
+			//enabled: bmaEnabled.checked ||
 			CheckBox{name: "checkBoxOutBoundProbabilities"; label: "Out-of-bound probabilities"}
 			CheckBox{name: "checkBoxOutBoundPlot"; label: "Future data predictions"}
 

@@ -627,7 +627,19 @@ quantInvVec <- function(distrMatrix,value) apply(distrMatrix, 1, quantInv,value)
     ggplot2::scale_x_continuous(name = "Time",breaks = xBreaks,limits = range(xBreaks))
 
   predanControlPlot$plotObject <- p
-  #jaspResults[["testPlot"]] <- predanControlPlot
+
+  #add html object
+  # Boolean whether warning is important or not based on whether at least 10 observations are out of bound
+  controlPlotHtmlImportance <- sum(controlData$outBound) > 10
+
+  htmlText <- paste(ifelse(controlPlotHtmlImportance,"Important!","Feedback"),
+                    sum(controlData$outBound),
+                    "Observations are out of control")
+
+  controlPlotHtmlReport <- createJaspHtml(text = htmlText)
+
+  predanDescriptivesContainer[["controlPlotHtmlReport"]] <- controlPlotHtmlReport
+
   if(!zoom)
     predanDescriptivesContainer[["predanControlPlot"]] <- predanControlPlot
   else
@@ -1004,8 +1016,9 @@ quantInvVec <- function(distrMatrix,value) apply(distrMatrix, 1, quantInv,value)
   predanBinaryControlPlots$dependOn(c(.boundDependencies(),"binaryControlChartCheck"))
 
   #if(options$binaryControlMethod == "state space"){
-    tsModel <- jaspResults[["predanResults"]][["predanBinaryBounds"]]$object
-    .predanBinaryControlStateSpacePlot(jaspResults,predanBinaryControlPlots,tsModel,predanResults,dataset,options)
+  tsModel <- jaspResults[["predanResults"]][["predanBinaryBounds"]]$object
+
+  .predanBinaryControlStateSpacePlot(jaspResults,predanBinaryControlPlots,tsModel,predanResults,dataset,options)
   #}
 
 
@@ -1033,8 +1046,25 @@ quantInvVec <- function(distrMatrix,value) apply(distrMatrix, 1, quantInv,value)
     ggplot2::theme(plot.margin = ggplot2::margin(t = 3, r = 12, b = 0, l = 1))
 
 
-  if(options$binaryControlOutPropLimit > 0)
+
+  if(options$binaryControlOutPropLimit > 0) {
+
+    # add html object
+    # importance decided by whether out-bound proportion boundary ever was reached
+    binaryPlotHtmlImportance <- any(results$mean > options$binaryControlOutPropLimit)
+    htmlText <- paste(
+      ifelse(binaryPlotHtmlImportance,"Important!","Feedback"),
+      "Out of control proportion has reached maximum of",
+      round(max(results$mean),2),
+      "percent."
+    )
+    binaryControlPlotHtmlReport <- createJaspHtml(text = htmlText)
+
+    predanBinaryControlPlots[["controlPlotHtmlReport"]] <- binaryControlPlotHtmlReport
+
     p <- p + ggplot2::geom_hline(yintercept = options$binaryControlOutPropLimit,linetype="dashed",color="darkred")
+
+  }
 
   predanBinaryControlStateSpacePlot$plotObject <- p
 
@@ -1913,6 +1943,21 @@ quantInvVec <- function(distrMatrix,value) apply(distrMatrix, 1, quantInv,value)
 
 
   futurePredictionPlot$plotObject <- p
+
+  predictionFutureHtmlImportance <- any(futurePredictions$upperProb > 0.5) |
+    any(futurePredictions$lowerProb > 0.5)
+
+
+  htmlText <- paste(
+    ifelse(predictionFutureHtmlImportance,"Important!","Feedback"),
+    "Future predictions indicate that process will go out of control above the upper limit with a probability of",
+    round(max(futurePredictions$upperProb),2),
+    "percent. And below the lower limit with a probability of",
+    round(max(futurePredictions$lowerProb),2)
+  )
+  predictionFutureHtmlReport <- createJaspHtml(text = htmlText)
+
+  futurePredictionContainer[["predictionFutureHtmlReport"]] <- predictionFutureHtmlReport
 
   futurePredictionContainer[["futurePredictionPlot"]] <- futurePredictionPlot
 
