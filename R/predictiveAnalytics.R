@@ -257,7 +257,7 @@ predictiveAnalytics <- function(jaspResults, dataset, options) {
     })
     #print(one_step_pred)
     if(!is.matrix(one_step_pred))
-      stop(gettext(paste0("Models didn't work. Instead of prediction matrix we got:",one_step_pred)))
+      stop(gettextf("Models didn't work. Instead of prediction matrix we got: %s", one_step_pred))
     one_step_matrix <- cbind(matrix(NA, nrow = niter, ncol = k + 1), one_step_pred)
   } else {
     future::plan("future::multisession")
@@ -628,17 +628,12 @@ quantInvVec <- function(distrMatrix,value) apply(distrMatrix, 1, quantInv,value)
 
   predanControlPlot$plotObject <- p
 
-  #add html object
-  # Boolean whether warning is important or not based on whether at least 10 observations are out of bound
-  controlPlotHtmlImportance <- sum(controlData$outBound) > 10
-
-  htmlText <- paste(ifelse(controlPlotHtmlImportance,"Important!","Feedback"),
-                    sum(controlData$outBound),
-                    "Observations are out of control")
-
-  controlPlotHtmlReport <- createJaspHtml(text = htmlText)
-
-  predanDescriptivesContainer[["controlPlotHtmlReport"]] <- controlPlotHtmlReport
+  # Report whether warning is important or not based on whether at least 10 observations are out of bound
+  predanDescriptivesContainer[["controlPlotReport"]] <- createJaspReport(
+    text     = gettextf("%i Observations are out of control", sum(controlData$outBound)),
+    report   = sum(controlData$outBound) > 10,
+    position = 0
+  )
 
   if(!zoom)
     predanDescriptivesContainer[["predanControlPlot"]] <- predanControlPlot
