@@ -630,7 +630,7 @@ quantInvVec <- function(distrMatrix,value) apply(distrMatrix, 1, quantInv,value)
 
   # Report whether warning is important or not based on whether at least 10 observations are out of bound
   predanDescriptivesContainer[["controlPlotReport"]] <- createJaspReport(
-    text     = gettextf("%i Observations are out of control", sum(controlData$outBound)),
+    text     = gettextf("%f Observations are out of control", sum(controlData$outBound)),
     report   = sum(controlData$outBound) > 10,
     position = 0
   )
@@ -1044,18 +1044,12 @@ quantInvVec <- function(distrMatrix,value) apply(distrMatrix, 1, quantInv,value)
 
   if(options$binaryControlOutPropLimit > 0) {
 
-    # add html object
     # importance decided by whether out-bound proportion boundary ever was reached
-    binaryPlotHtmlImportance <- any(results$mean > options$binaryControlOutPropLimit)
-    htmlText <- paste(
-      ifelse(binaryPlotHtmlImportance,"Important!","Feedback"),
-      "Out of control proportion has reached maximum of",
-      round(max(results$mean),2),
-      "percent."
+    predanBinaryControlPlots[["binaryControlPlotReport"]] <- createJaspReport(
+      text     = gettextf("Out of control proportion has reached maximum of %f%%", round(max(results$mean),2) ),
+      report   = any(results$mean > options$binaryControlOutPropLimit),
+      position = 0
     )
-    binaryControlPlotHtmlReport <- createJaspHtml(text = htmlText)
-
-    predanBinaryControlPlots[["controlPlotHtmlReport"]] <- binaryControlPlotHtmlReport
 
     p <- p + ggplot2::geom_hline(yintercept = options$binaryControlOutPropLimit,linetype="dashed",color="darkred")
 
@@ -1939,20 +1933,11 @@ quantInvVec <- function(distrMatrix,value) apply(distrMatrix, 1, quantInv,value)
 
   futurePredictionPlot$plotObject <- p
 
-  predictionFutureHtmlImportance <- any(futurePredictions$upperProb > 0.5) |
-    any(futurePredictions$lowerProb > 0.5)
-
-
-  htmlText <- paste(
-    ifelse(predictionFutureHtmlImportance,"Important!","Feedback"),
-    "Future predictions indicate that process will go out of control above the upper limit with a probability of",
-    round(max(futurePredictions$upperProb),2),
-    "percent. And below the lower limit with a probability of",
-    round(max(futurePredictions$lowerProb),2)
+  futurePredictionContainer[["predictionFutureReport"]] <- createJaspReport(
+    text     = gettextf("Future predictions indicate that process will go out of control above the upper limit with a probability of %f%%.\nAnd below the lower limit with a probability of %f%% ", round(max(futurePredictions$upperProb),2), round(max(futurePredictions$lowerProb),2)),
+    report   = any(futurePredictions$upperProb > 0.5) | any(futurePredictions$lowerProb > 0.5),
+    position = 0
   )
-  predictionFutureHtmlReport <- createJaspHtml(text = htmlText)
-
-  futurePredictionContainer[["predictionFutureHtmlReport"]] <- predictionFutureHtmlReport
 
   futurePredictionContainer[["futurePredictionPlot"]] <- futurePredictionPlot
 
