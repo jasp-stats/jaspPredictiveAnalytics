@@ -2,79 +2,111 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jaspPredictiveAnalytics 0.17.3\n"
 "POT-Creation-Date: 2023-07-25 07:41\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2023-07-27 08:07+0000\n"
+"Last-Translator: Johannes Keyser <joke@fsfe.org>\n"
+"Language-Team: German <https://hosted.weblate.org/projects/jasp/"
+"jasppredictiveanalytics-r/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.0-dev\n"
 
 msgid "Column input is wrong"
-msgstr ""
+msgstr "Spalteneingabe ist falsch"
 
+#, fuzzy
 msgid "<p style=\"color:tomato;\"><b>This is a warning!</b></p>\n                           Error proportion limit of %#.2f is crossed for the first time at data point %i in the estimation period. At this point on average %#.2f data points are estimates to be out of control with an lower limit of %#.2f and an upper limit of %#.2f </p>"
 msgstr ""
+"<p style=\"color:tomato;\"><b>Dies ist eine Warnung!</b></p>\n"
+"                           Die Fehleranteilsgrenze von %#.2f wird zum ersten "
+"Mal am Datenpunkt %i im Schätzungszeitraum überschritten. Zu diesem "
+"Zeitpunkt werden im Durchschnitt %#.2f Datenpunkte mit einer Untergrenze von "
+"%#.2f und einer Obergrenze von %#.2f als außer-Kontrolle eingeschätzt </p>"
 
+#, fuzzy
 msgid "<p \">No warning. The limit of %#.2f is not crossed during the estimation period.</p>"
 msgstr ""
+"<p \">Keine Warnung. Die Grenze von %#.2f wird während des "
+"Schätzungszeitraums nicht überschritten.</p>"
 
+#, fuzzy
 msgid "<p style=\"color:tomato;\"><b>This is a warning!</b></p>\n                           Error proportion limit of %#.2f is crossed for the first time in %i data points in the prediction period. At this point on average %#.2f data points will be out of control with an lower limit of %#.2f and an upper limit of %#.2f </p>"
 msgstr ""
+"<p style=\"color:tomato;\"><b>Dies ist eine Warnung!</b></p>\n"
+"                           Die Fehleranteilsgrenze von %#.2f wird zum ersten "
+"Mal in %i Datenpunkten im Vorhersagezeitraum überschritten. An diesem Punkt "
+"werden im Durchschnitt %#.2f Datenpunkte außer Kontrolle sein, mit einer "
+"Untergrenze von %#.2f und einer Obergrenze von %#.2f </p>"
 
+#, fuzzy
 msgid "<p \">No warning. The limit of %#.2f is not crossed during the prediction period.</p>"
 msgstr ""
+"<p \">Keine Warnung. Die Grenze von %#.2f wird während des "
+"Vorhersagezeitraums nicht überschritten.</p>"
 
 msgid "Basic control plot"
 msgstr ""
 
 msgid "Autocorrelation Function Plots"
-msgstr ""
+msgstr "Diagramme Autokorrelationsfunktion"
 
 msgid "Histogram Plot"
-msgstr ""
+msgstr "Histogramm"
 
 msgid "Mean"
-msgstr ""
+msgstr "Mittelwert"
 
 msgid "SD"
-msgstr ""
+msgstr "SD"
 
 msgid "Minimum"
-msgstr ""
+msgstr "Minimum"
 
 msgid "Maximum"
-msgstr ""
+msgstr "Maximum"
 
 msgid "Valid"
-msgstr ""
+msgstr "Gültig"
 
 msgid "Percent"
-msgstr ""
+msgstr "Prozent"
 
 msgid "Average Deviation"
-msgstr ""
+msgstr "Mittlere Abweichung"
 
 msgid "Running model"
 msgstr ""
 
 msgid "/"
-msgstr ""
+msgstr "/"
 
 msgid ":"
-msgstr ""
+msgstr ":"
 
 msgid "R%s"
-msgstr ""
+msgstr "R%s"
 
 msgid "Cannot compute forecast. Larger forecast horizon requested than indicated by 'Include in Training' variable. Reduce forecast horizon or change training indicator"
 msgstr ""
+"Prognose kann nicht berechnet werden. Es wurde ein größerer Prognosehorizont "
+"angefordert, als in der Variablen 'In Training einbeziehen' angegeben. "
+"Verringern Sie den Prognosehorizont oder ändern Sie den Trainingsindikator"
 
+#, fuzzy
 msgid "Warning! The process is predicted to cross the out-of-control probability threshold for the first time at time point:"
 msgstr ""
+"Warnung! Es wird vorhergesagt, dass der Prozess den Außer-Kontrolle-"
+"Wahrscheinlichkeitsschwellenwert zum ersten Mal bei folgendem Zeitpunkt "
+"überschreitet:"
 
+#, fuzzy
 msgid "No warning. The process is not predicted to cross the out-of-control probability threshold. The highest out-of-bound probability is:"
 msgstr ""
+"Keine Warnung. Es wird nicht vorhergesagt, dass der Prozess den Außer-"
+"Kontrolle-Wahrscheinlichkeitsschwellenwert überschreitet. Die höchste "
+"Grenzwertüberschreitungswahrscheinlichkeit ist:"
 
 msgid "percent."
-msgstr ""
+msgstr "Prozent."
