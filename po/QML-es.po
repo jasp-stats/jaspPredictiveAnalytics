@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-07-27 12:16+0000\n"
+"PO-Revision-Date: 2023-07-28 19:32+0000\n"
 "Last-Translator: ecadrian <ecadrian@hotmail.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/jasp/"
 "jasppredictiveanalytics/es/>\n"
@@ -353,147 +353,147 @@ msgstr "MSTEB(BSTS) - Modelo autorregresivo"
 
 msgctxt "predictiveAnalytics|"
 msgid "bsts - autoregressive model - regression"
-msgstr ""
+msgstr "MSTEB(BSTS) - Modelo autorregresivo - Regresión"
 
 msgctxt "predictiveAnalytics|"
 msgid "bsts - autoregressive model - regression + lag"
-msgstr ""
+msgstr "MSTEB(BSTS) - Modelo autorregresivo - Regresión + Retardo"
 
 msgctxt "predictiveAnalytics|"
 msgid "prophet"
-msgstr ""
+msgstr "Profeta"
 
 msgctxt "predictiveAnalytics|"
 msgid "prophet - regression"
-msgstr ""
+msgstr "Profeta - Regresión"
 
 msgctxt "predictiveAnalytics|"
 msgid "prophet - regression + lag"
-msgstr ""
+msgstr "Profeta - Regresión + Retardo"
 
 msgctxt "predictiveAnalytics|"
 msgid "xgboost - regression"
-msgstr ""
+msgstr "XGBoost - Regresión"
 
 msgctxt "predictiveAnalytics|"
 msgid "xgboost - regression + lag"
-msgstr ""
+msgstr "XGBoost - Regresión + Retardo"
 
 msgctxt "predictiveAnalytics|"
 msgid "bart - regression"
-msgstr ""
+msgstr "BART - Regresión"
 
 msgctxt "predictiveAnalytics|"
 msgid "bart - regression + lag"
-msgstr ""
+msgstr "BART - Regresión + Retardo"
 
 msgctxt "predictiveAnalytics|"
 msgid "bart - stack"
-msgstr ""
+msgstr "BART - Apilamiento"
 
 msgctxt "predictiveAnalytics|"
 msgid "Evaluation Metrics"
-msgstr ""
+msgstr "Métricas de evaluación"
 
 msgctxt "predictiveAnalytics|"
 msgid "Probabilistic"
-msgstr ""
+msgstr "Probabilístico"
 
 msgctxt "predictiveAnalytics|"
 msgid "Continuous ranked probability score"
-msgstr ""
+msgstr "Puntuación de la probabilidad con rango continuo"
 
 msgctxt "predictiveAnalytics|"
 msgid "Dawid–Sebastiani score"
-msgstr ""
+msgstr "Puntuación de Dawid–Sebastiani"
 
 msgctxt "predictiveAnalytics|"
 msgid "Log score"
-msgstr ""
+msgstr "Puntuación log"
 
 msgctxt "predictiveAnalytics|"
 msgid "Coverage"
-msgstr ""
+msgstr "Cobertura"
 
 msgctxt "predictiveAnalytics|"
 msgid "Bias"
-msgstr ""
+msgstr "Sesgo"
 
 msgctxt "predictiveAnalytics|"
 msgid "Probability integral transform"
-msgstr ""
+msgstr "Transformación de la integral de probabilidad"
 
 msgctxt "predictiveAnalytics|"
 msgid "Deterministic"
-msgstr ""
+msgstr "Determinístico"
 
 msgctxt "predictiveAnalytics|"
 msgid "Mean absolute error"
-msgstr ""
+msgstr "Error absoluto medio"
 
 msgctxt "predictiveAnalytics|"
 msgid "Root mean squared error"
-msgstr ""
+msgstr "Raíz del error absoluto medio"
 
 msgctxt "predictiveAnalytics|"
 msgid "R²"
-msgstr ""
+msgstr "R²"
 
 msgctxt "predictiveAnalytics|"
 msgid "PIT Binned Density Plots"
-msgstr ""
+msgstr "Gráficas de densidad con barras de los PIT"
 
 msgctxt "predictiveAnalytics|"
 msgid "Prediction Plots"
-msgstr ""
+msgstr "Gráficos de predicción"
 
 msgctxt "predictiveAnalytics|"
 msgid "Models to plot"
-msgstr ""
+msgstr "Modelos a representar"
 
 msgctxt "predictiveAnalytics|"
 msgid "Ensemble Bayesian Model Averaging"
-msgstr ""
+msgstr "Modelo Medio Bayesiano Conjunto"
 
 msgctxt "predictiveAnalytics|"
 msgid "Method"
-msgstr ""
+msgstr "Método"
 
 msgctxt "predictiveAnalytics|"
 msgid "Expectation–maximization"
-msgstr ""
+msgstr "Expectativa-maximización"
 
 msgctxt "predictiveAnalytics|"
 msgid "Gibbs sampling"
-msgstr ""
+msgstr "Muestreo de Gibbs"
 
 msgctxt "predictiveAnalytics|"
 msgid "Next test slice"
-msgstr ""
+msgstr "Siguiente trozo de contraste"
 
 msgctxt "predictiveAnalytics|"
 msgid "Same test slice"
-msgstr ""
+msgstr "Mismo trozo de contraste"
 
 msgctxt "predictiveAnalytics|"
 msgid "Last"
-msgstr ""
+msgstr "Último"
 
 msgctxt "predictiveAnalytics|"
 msgid "% of data"
-msgstr ""
+msgstr "% de datos"
 
 msgctxt "predictiveAnalytics|"
 msgid "Model weights"
-msgstr ""
+msgstr "Ponderaciones del modelo"
 
 msgctxt "predictiveAnalytics|"
 msgid "Show per slice"
-msgstr ""
+msgstr "Mostrar por trozo"
 
 msgctxt "predictiveAnalytics|"
 msgid "Future Prediction"
-msgstr ""
+msgstr "Predicción Futura"
 
 msgctxt "predictiveAnalytics|"
 msgid "Prediction horizon"
@@ -513,4 +513,4 @@ msgstr "Opciones Avanzadas"
 
 msgctxt "predictiveAnalytics|"
 msgid "Skip between training slices"
-msgstr ""
+msgstr "Salto entre trozos de adiestramiento"
