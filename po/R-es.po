@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jaspPredictiveAnalytics 0.17.3\n"
 "POT-Creation-Date: 2023-07-25 07:41\n"
-"PO-Revision-Date: 2023-08-03 04:53+0000\n"
-"Last-Translator: Raydel Pérez Castillo <raydelp77@gmail.com>\n"
+"PO-Revision-Date: 2023-08-03 04:54+0000\n"
+"Last-Translator: ecadrian <ecadrian@hotmail.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/jasp/"
 "jasppredictiveanalytics-r/es/>\n"
 "Language: es\n"
@@ -39,57 +39,66 @@ msgstr ""
 
 msgid "<p \">No warning. The limit of %#.2f is not crossed during the prediction period.</p>"
 msgstr ""
+"<p \">Sin complicaciones. El límite de %#.2f no se ha traspasado durante el "
+"período de predicción.</p>"
 
 msgid "Basic control plot"
-msgstr ""
+msgstr "Gráfico de control básico"
 
 msgid "Autocorrelation Function Plots"
-msgstr ""
+msgstr "Gráficos de la función de Autocorrelación"
 
 msgid "Histogram Plot"
-msgstr ""
+msgstr "Gráfico de histograma"
 
 msgid "Mean"
-msgstr ""
+msgstr "Media"
 
 msgid "SD"
-msgstr ""
+msgstr "DT"
 
 msgid "Minimum"
-msgstr ""
+msgstr "Mínimo"
 
 msgid "Maximum"
-msgstr ""
+msgstr "Máximo"
 
 msgid "Valid"
-msgstr ""
+msgstr "Válido"
 
 msgid "Percent"
-msgstr ""
+msgstr "Por ciento"
 
 msgid "Average Deviation"
-msgstr ""
+msgstr "Desviación media"
 
 msgid "Running model"
-msgstr ""
+msgstr "Ejecutando modelo"
 
 msgid "/"
-msgstr ""
+msgstr "/"
 
 msgid ":"
-msgstr ""
+msgstr ":"
 
 msgid "R%s"
-msgstr ""
+msgstr "R%s"
 
 msgid "Cannot compute forecast. Larger forecast horizon requested than indicated by 'Include in Training' variable. Reduce forecast horizon or change training indicator"
 msgstr ""
+"No se puede calcular la predicción. Se solicitó un horizonte de predicción "
+"más largo que el indicado por la variable 'Incluir en el adiestramiento'. "
+"Reduzca el horizonte de predicción o cambie le indicador de adiestramiento"
 
 msgid "Warning! The process is predicted to cross the out-of-control probability threshold for the first time at time point:"
 msgstr ""
+"¡Advertencia! Se predice que el proceso sobrepase el umbral de la "
+"probabilidad fuera-de-control por primera vez en el momento temporal:"
 
 msgid "No warning. The process is not predicted to cross the out-of-control probability threshold. The highest out-of-bound probability is:"
 msgstr ""
+"Sin complicaciones. No se predice que el proceso sobrepase el umbral de la "
+"probabilidad fuera-de-control. La mayor probabilidad fuera-de-límite es:"
 
 msgid "percent."
-msgstr ""
+msgstr "por ciento."
