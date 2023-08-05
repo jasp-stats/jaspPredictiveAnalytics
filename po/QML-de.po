@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-07-27 12:16+0000\n"
+"PO-Revision-Date: 2023-08-05 09:02+0000\n"
 "Last-Translator: Johannes Keyser <joke@fsfe.org>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/jasp/"
 "jasppredictiveanalytics/de/>\n"
@@ -12,7 +12,6 @@ msgstr ""
 "X-Generator: Weblate 5.0-dev\n"
 "X-Qt-Contexts: true\n"
 
-#, fuzzy
 msgctxt "Description|"
 msgid "Predictive Analytics"
 msgstr "Prädiktive Analytik"
