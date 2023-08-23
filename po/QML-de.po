@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-08-06 10:10+0000\n"
+"PO-Revision-Date: 2023-08-24 13:55+0000\n"
 "Last-Translator: Johannes Keyser <joke@fsfe.org>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/jasp/"
 "jasppredictiveanalytics/de/>\n"
@@ -125,12 +125,10 @@ msgctxt "multiVarControl|"
 msgid "Forecast plot"
 msgstr "Prognosediagramm"
 
-#, fuzzy
 msgctxt "multiVarControl|"
 msgid "Prediction table"
 msgstr "Vorhersagetabelle"
 
-#, fuzzy
 msgctxt "multiVarControl|"
 msgid "Show predicted number"
 msgstr "Vorhergesagte Zahl anzeigen"
@@ -191,7 +189,6 @@ msgstr ""
 "Erstellung von Prognosen erforderlich, wenn Kovariaten und Faktoren "
 "angegeben werden"
 
-#, fuzzy
 msgctxt "predictiveAnalytics|"
 msgid "Time Series Descriptives"
 msgstr "Zeitreihen-Deskriptive"
@@ -280,7 +277,6 @@ msgctxt "predictiveAnalytics|"
 msgid "Histogram"
 msgstr "Histogramm"
 
-#, fuzzy
 msgctxt "predictiveAnalytics|"
 msgid "Lags"
 msgstr "Verzögerungen"
@@ -310,12 +306,10 @@ msgctxt "predictiveAnalytics|"
 msgid "Evaluation Plan"
 msgstr ""
 
-#, fuzzy
 msgctxt "predictiveAnalytics|"
 msgid "Training window"
 msgstr "Trainingsfenster"
 
-#, fuzzy
 msgctxt "predictiveAnalytics|"
 msgid "Prediction window"
 msgstr "Vorhersagefenster"
