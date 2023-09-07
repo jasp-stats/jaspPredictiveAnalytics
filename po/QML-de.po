@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-08-24 13:55+0000\n"
+"PO-Revision-Date: 2023-09-08 08:59+0000\n"
 "Last-Translator: Johannes Keyser <joke@fsfe.org>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/jasp/"
 "jasppredictiveanalytics/de/>\n"
@@ -9,7 +9,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.0-dev\n"
+"X-Generator: Weblate 5.0.1-dev\n"
 "X-Qt-Contexts: true\n"
 
 msgctxt "Description|"
@@ -100,7 +100,6 @@ msgctxt "multiVarControl|"
 msgid "Summarise after every"
 msgstr "Zusammenfassen nach jeweils"
 
-#, fuzzy
 msgctxt "multiVarControl|"
 msgid "data points"
 msgstr "Datenpunkten"
@@ -289,7 +288,6 @@ msgctxt "predictiveAnalytics|"
 msgid "Feature Engineering"
 msgstr ""
 
-#, fuzzy
 msgctxt "predictiveAnalytics|"
 msgid "Remove zero-variance variables"
 msgstr "Null-Varianz-Variablen entfernen"
