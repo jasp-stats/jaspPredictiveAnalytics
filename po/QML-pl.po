@@ -31,7 +31,7 @@ msgstr ""
 
 msgctxt "multiVarControl|"
 msgid "Transpose table"
-msgstr ""
+msgstr "Transponuj tabelę"
 
 msgctxt "multiVarControl|"
 msgid "Overall control plot"
@@ -39,19 +39,19 @@ msgstr ""
 
 msgctxt "multiVarControl|"
 msgid "Points"
-msgstr ""
+msgstr "Punkty"
 
 msgctxt "multiVarControl|"
 msgid "Line"
-msgstr ""
+msgstr "Linia"
 
 msgctxt "multiVarControl|"
 msgid "Both"
-msgstr ""
+msgstr "Oba"
 
 msgctxt "multiVarControl|"
 msgid "Add jitter"
-msgstr ""
+msgstr "Dodaj losowy szum"
 
 msgctxt "multiVarControl|"
 msgid "Out-of-bound metric"
@@ -59,11 +59,11 @@ msgstr ""
 
 msgctxt "multiVarControl|"
 msgid "Number"
-msgstr ""
+msgstr "Liczba"
 
 msgctxt "multiVarControl|"
 msgid "Proportion"
-msgstr ""
+msgstr "Proporcja"
 
 msgctxt "multiVarControl|"
 msgid "Proportion limits for reporting"
@@ -99,7 +99,7 @@ msgstr ""
 
 msgctxt "multiVarControl|"
 msgid "Prediction"
-msgstr ""
+msgstr "Przewidywanie"
 
 msgctxt "multiVarControl|"
 msgid "Prediction horizon"
@@ -111,7 +111,7 @@ msgstr ""
 
 msgctxt "multiVarControl|"
 msgid "Prediction table"
-msgstr ""
+msgstr "Tabela przewidywań"
 
 msgctxt "multiVarControl|"
 msgid "Show predicted number"
@@ -123,7 +123,7 @@ msgstr ""
 
 msgctxt "predictiveAnalytics|"
 msgid "Dependent Variable"
-msgstr ""
+msgstr "Zmienna zależna"
 
 msgctxt "predictiveAnalytics|"
 msgid "Time series variable to be predicted. (needed)"
@@ -131,7 +131,7 @@ msgstr ""
 
 msgctxt "predictiveAnalytics|"
 msgid "Time"
-msgstr ""
+msgstr "Czas"
 
 msgctxt "predictiveAnalytics|"
 msgid ""
@@ -142,7 +142,7 @@ msgstr ""
 
 msgctxt "predictiveAnalytics|"
 msgid "Covariates"
-msgstr ""
+msgstr "Współzmienne"
 
 msgctxt "predictiveAnalytics|"
 msgid "Covariates to be used in the prediction model. (optional)"
@@ -150,7 +150,7 @@ msgstr ""
 
 msgctxt "predictiveAnalytics|"
 msgid "Factors"
-msgstr ""
+msgstr "Czynniki"
 
 msgctxt "predictiveAnalytics|"
 msgid "Include in Training"
@@ -174,7 +174,7 @@ msgstr ""
 
 msgctxt "predictiveAnalytics|"
 msgid "σ threshold"
-msgstr ""
+msgstr "Próg σ"
 
 msgctxt "predictiveAnalytics|"
 msgid "Trimmed mean"
@@ -182,7 +182,7 @@ msgstr ""
 
 msgctxt "predictiveAnalytics|"
 msgid "Percent"
-msgstr ""
+msgstr "Procent"
 
 msgctxt "predictiveAnalytics|"
 msgid "Custom period"
@@ -190,11 +190,11 @@ msgstr ""
 
 msgctxt "predictiveAnalytics|"
 msgid "Start"
-msgstr ""
+msgstr "Początek"
 
 msgctxt "predictiveAnalytics|"
 msgid "End"
-msgstr ""
+msgstr "Koniec"
 
 msgctxt "predictiveAnalytics|"
 msgid "Display control chart"
@@ -206,19 +206,19 @@ msgstr ""
 
 msgctxt "predictiveAnalytics|"
 msgid "Points"
-msgstr ""
+msgstr "Punkty"
 
 msgctxt "predictiveAnalytics|"
 msgid "Line"
-msgstr ""
+msgstr "Linia"
 
 msgctxt "predictiveAnalytics|"
 msgid "Both"
-msgstr ""
+msgstr "Oba"
 
 msgctxt "predictiveAnalytics|"
 msgid "All data"
-msgstr ""
+msgstr "Wszystkie dane"
 
 msgctxt "predictiveAnalytics|"
 msgid "Control bounds"
@@ -234,11 +234,11 @@ msgstr ""
 
 msgctxt "predictiveAnalytics|"
 msgid "Diagnostics"
-msgstr ""
+msgstr "Diagnostyka"
 
 msgctxt "predictiveAnalytics|"
 msgid "Tables"
-msgstr ""
+msgstr "Tabele"
 
 msgctxt "predictiveAnalytics|"
 msgid "Custom table focus"
@@ -246,11 +246,11 @@ msgstr ""
 
 msgctxt "predictiveAnalytics|"
 msgid "Plots"
-msgstr ""
+msgstr "Wykresy"
 
 msgctxt "predictiveAnalytics|"
 msgid "Histogram"
-msgstr ""
+msgstr "Histogram"
 
 msgctxt "predictiveAnalytics|"
 msgid "Lags"
@@ -266,11 +266,11 @@ msgstr ""
 
 msgctxt "predictiveAnalytics|"
 msgid "Remove zero-variance variables"
-msgstr ""
+msgstr "Usuń zmienne o wariancji równej 0"
 
 msgctxt "predictiveAnalytics|"
 msgid "Remove variables that are stronger correlated than:"
-msgstr ""
+msgstr "Usuń zmienne, które wykazują korelację wyższą niż:"
 
 msgctxt "predictiveAnalytics|"
 msgid "Forecast Evaluation"
@@ -306,7 +306,7 @@ msgstr ""
 
 msgctxt "predictiveAnalytics|"
 msgid "Model Choice"
-msgstr ""
+msgstr "Wybór modelu"
 
 msgctxt "predictiveAnalytics|"
 msgid "linear regression - y ~ time"
@@ -314,7 +314,7 @@ msgstr ""
 
 msgctxt "predictiveAnalytics|"
 msgid "linear regression - regression"
-msgstr ""
+msgstr "regresja liniowa – regresja"
 
 msgctxt "predictiveAnalytics|"
 msgid "linear regression - regression + lag"
@@ -394,11 +394,11 @@ msgstr ""
 
 msgctxt "predictiveAnalytics|"
 msgid "Root mean squared error"
-msgstr ""
+msgstr "RMSE"
 
 msgctxt "predictiveAnalytics|"
 msgid "R²"
-msgstr ""
+msgstr "R²"
 
 msgctxt "predictiveAnalytics|"
 msgid "PIT Binned Density Plots"
@@ -418,7 +418,7 @@ msgstr ""
 
 msgctxt "predictiveAnalytics|"
 msgid "Method"
-msgstr ""
+msgstr "Metoda"
 
 msgctxt "predictiveAnalytics|"
 msgid "Expectation–maximization"
@@ -442,7 +442,7 @@ msgstr ""
 
 msgctxt "predictiveAnalytics|"
 msgid "% of data"
-msgstr ""
+msgstr "% danych"
 
 msgctxt "predictiveAnalytics|"
 msgid "Model weights"
@@ -462,11 +462,11 @@ msgstr ""
 
 msgctxt "predictiveAnalytics|"
 msgid "data points"
-msgstr ""
+msgstr "punkt danych"
 
 msgctxt "predictiveAnalytics|"
 msgid "All data points"
-msgstr ""
+msgstr "Wszystkie punkty danych"
 
 msgctxt "predictiveAnalytics|"
 msgid "Skip between training slices"
@@ -475,3 +475,31 @@ msgstr ""
 msgctxt "predictiveAnalytics|"
 msgid "Impute missing values"
 msgstr ""
+
+msgctxt "predictiveAnalytics|"
+msgid "bsts - linear trend model - regression + lag"
+msgstr ""
+
+msgctxt "predictiveAnalytics|"
+msgid "bsts - autoregressive model - regression + lag"
+msgstr ""
+
+msgctxt "predictiveAnalytics|"
+msgid "prophet - regression + lag"
+msgstr ""
+
+msgctxt "predictiveAnalytics|"
+msgid "xgboost - regression"
+msgstr ""
+
+msgctxt "predictiveAnalytics|"
+msgid "xgboost - regression + lag"
+msgstr ""
+
+msgctxt "predictiveAnalytics|"
+msgid "bart - stack"
+msgstr ""
+
+msgctxt "predictiveAnalytics|"
+msgid "Advanced Options"
+msgstr "Opcje zaawansowane"
