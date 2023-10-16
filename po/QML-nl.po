@@ -329,19 +329,11 @@ msgid "bsts - linear trend model - regression"
 msgstr ""
 
 msgctxt "predictiveAnalytics|"
-msgid "bsts - linear trend model - regression + lag"
-msgstr ""
-
-msgctxt "predictiveAnalytics|"
 msgid "bsts - autoregressive model"
 msgstr ""
 
 msgctxt "predictiveAnalytics|"
 msgid "bsts - autoregressive model - regression"
-msgstr ""
-
-msgctxt "predictiveAnalytics|"
-msgid "bsts - autoregressive model - regression + lag"
 msgstr ""
 
 msgctxt "predictiveAnalytics|"
@@ -353,27 +345,11 @@ msgid "prophet - regression"
 msgstr ""
 
 msgctxt "predictiveAnalytics|"
-msgid "prophet - regression + lag"
-msgstr ""
-
-msgctxt "predictiveAnalytics|"
-msgid "xgboost - regression"
-msgstr ""
-
-msgctxt "predictiveAnalytics|"
-msgid "xgboost - regression + lag"
-msgstr ""
-
-msgctxt "predictiveAnalytics|"
 msgid "bart - regression"
 msgstr ""
 
 msgctxt "predictiveAnalytics|"
 msgid "bart - regression + lag"
-msgstr ""
-
-msgctxt "predictiveAnalytics|"
-msgid "bart - stack"
 msgstr ""
 
 msgctxt "predictiveAnalytics|"
@@ -493,9 +469,9 @@ msgid "All data points"
 msgstr ""
 
 msgctxt "predictiveAnalytics|"
-msgid "Advanced Options"
+msgid "Skip between training slices"
 msgstr ""
 
 msgctxt "predictiveAnalytics|"
-msgid "Skip between training slices"
+msgid "Impute missing values"
 msgstr ""

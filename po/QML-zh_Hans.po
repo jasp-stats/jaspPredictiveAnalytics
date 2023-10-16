@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-07-27 12:16+0000\n"
+"PO-Revision-Date: 2023-08-07 11:48+0000\n"
 "Last-Translator: Shun Wang <shuonwang@gmail.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
 "jasp/jasppredictiveanalytics/zh_Hans/>\n"
@@ -22,7 +22,7 @@ msgstr "该模块提供预测分析。"
 
 msgctxt "multiVarControl|"
 msgid "Control Variables"
-msgstr ""
+msgstr "控制变量"
 
 msgctxt "multiVarControl|"
 msgid "Only include previous"

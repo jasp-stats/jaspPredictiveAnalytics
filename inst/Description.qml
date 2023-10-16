@@ -6,7 +6,7 @@ Description
 	name		: "jaspPredictiveAnalytics"
 	title		: qsTr("Predictive Analytics")
 	description	: qsTr("This module offers predictive analytics.")
-	version			: "0.18.0"
+	version			: "0.18.1"
 	author		: "JASP Team"
 	maintainer	: "JASP Team <info@jasp-stats.org>"
 	website		: "https://jasp-stats.org"
@@ -20,10 +20,10 @@ Description
 		qml: 'predictiveAnalytics.qml'
 	}
 
-	Analysis
-	{
-	    title: "Multivariate Binomial Control"
-	    func: "multiVarControl"
-		qml: 'multiVarControl.qml'
-	}
+	//Analysis
+	//{
+	//    title: "Multivariate Binomial Control"
+	//    func: "multiVarControl"
+	//	qml: 'multiVarControl.qml'
+	//}
 }

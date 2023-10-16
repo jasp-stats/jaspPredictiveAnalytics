@@ -1,7 +1,7 @@
 import QtQuick
-import QtQuick.Layouts 
-import JASP.Controls 
-import JASP.Widgets 
+import QtQuick.Layouts
+import JASP.Controls
+import JASP.Widgets
 
 Form
 {
@@ -29,7 +29,7 @@ Form
 			info: qsTr("Time variable that each corresponds to the time stamp of each observation. Can be in the following formats: ['YYYY-MM-DD', 'YYYY/MM/DD', 'YYYY-MM-DD HH:MM:SS', 'YYYY/MM/DD HH:MM:SS'] (needed)")
 		}
 
-		AssignedVariablesList	
+		AssignedVariablesList
 		{
 			name: "covariates"
 			title: qsTr("Covariates")
@@ -44,7 +44,7 @@ Form
 			title: qsTr("Factors")
 			allowedColumns: ["ordinal", "nominal", "nominalText"]
 		}
-		
+
 		AssignedVariablesList
 		{
 			name: "trainingIndicator"
@@ -212,7 +212,7 @@ Form
 					checked: false
 					label: "Reporting mode"
 					CIField{name: "controlPlotReportingPercent"; label: "Out-of-bound percent threshold";defaultValue:5}
-		
+
 				}
 			}
 		}
@@ -295,12 +295,14 @@ Form
 
 		CheckBox{name: "featEngAutoTimeBased"; label: "Automatic time-based features"}
 
-		//CheckBox{
-		//    name: "featEngAggregateTime"
-		//    label: "Aggregate data every"
-		//    childrenOnSameRow: true
-		//    IntegerField{name: "featEngAggWindow"; afterLabel: qsTr("minutes"); defaultValue: 2; min:2}
-		//}
+
+
+		CheckBox
+		{
+			name: "featEngImputeTS"
+			label: qsTr("Impute missing values")
+
+		}
 
 		Group
 		{
@@ -326,8 +328,18 @@ Form
         {
 			title: qsTr("Evaluation Plan")
             //Layout.columnSpan: 1
-			IntegerField{name: "resampleInitialTraining"; label: qsTr("Training window"); defaultValue: resampleForecastHorizon.value*2}
-            IntegerField{name: "resampleForecastHorizon"; id: "resampleForecastHorizon";  label: qsTr("Prediction window");defaultValue: 100}
+			IntegerField{
+				name: "resampleForecastHorizon"
+				id: "resampleForecastHorizon"
+				label: qsTr("Prediction window")
+				defaultValue: Math.floor((dataSetModel.rowCount() / 5)*0.6)
+			}
+			IntegerField{
+				name: "resampleInitialTraining"
+				label: qsTr("Training window")
+				defaultValue: Math.floor((dataSetModel.rowCount() / 5)*1.4)
+			}
+            IntegerField{name: "resampleSkip"; label: qsTr("Skip between training slices");defaultValue: resampleForecastHorizon.value}
 
 			RadioButtonGroup
 			{
@@ -337,7 +349,7 @@ Form
 				RadioButton{ value: "head"; label: qsTr("Start")}
 				RadioButton{ value: "tail"; label: qsTr("End"); checked: true}
 			}
-            IntegerField{name: "resampleMaxSlice"; id: "maxSlices"; label: qsTr("Maximum nr. of slices");defaultValue:5}
+            IntegerField{name: "resampleMaxSlice"; id: "maxSlices"; label: qsTr("Maximum nr. of slices"); defaultValue:5; min: 1}
             CheckBox{name: "resampleCumulativeCheck"; label: qsTr("Cumulative training")}
 
 			CheckBox
@@ -345,7 +357,7 @@ Form
 				name: "resampleCheckShowTrainingPlan"
 				label: qsTr("Show evaluation plan")
 				CheckBox{ name: "resamplePlanPlotEqualDistance"; label: qsTr("Spread points equally"); checked: true}
-				IntegerField{name: "resamplePlanPlotMaxPlots"; label: "Max slices shown:"; defaultValue: 5; max: maxSlices.value ;min:1}
+				IntegerField{name: "resamplePlanPlotMaxPlots"; label: "Max slices shown:"; defaultValue: maxSlices.value ; max: maxSlices.value ;min:1}
 			}
         }
 		}
@@ -367,23 +379,24 @@ Form
 				{
 					name: "modelSelection"
 					width: preferencesModel.uiScale * 300
-					source: [{values: [	{label : qsTr("linear regression - y ~ time"), value: "lmSpike"},
+					source: [{values: [
+					          {label : qsTr("linear regression - y ~ time"), value: "lmSpike"},
 										{label : qsTr("linear regression - regression"), value: "lmSpikeReg"},
 										{label : qsTr("linear regression - regression + lag"), value: "lmSpikeRegLag"},
 										{label : qsTr("bsts - linear trend model"), value: "bstsLinear"},
 										{label : qsTr("bsts - linear trend model - regression"), value: "bstsLinearReg"},
-										{label : qsTr("bsts - linear trend model - regression + lag"), value: "bstsLinearLag"},
+										//{label : qsTr("bsts - linear trend model - regression + lag"), value: "bstsLinearLag"},
 										{label : qsTr("bsts - autoregressive model"), value: "bstsAr"},
 										{label : qsTr("bsts - autoregressive model - regression"), value: "bstsArReg"},
-										{label : qsTr("bsts - autoregressive model - regression + lag"), value: "bstsArRegLag"},
+										//{label : qsTr("bsts - autoregressive model - regression + lag"), value: "bstsArRegLag"},
 										{label : qsTr("prophet"), value: "prophet"},
 										{label : qsTr("prophet - regression"), value: "prophetReg"},
-										{label : qsTr("prophet - regression + lag"), value: "prophetRegLag"},
-										{label : qsTr("xgboost - regression"), value: "xgboostReg"},
-										{label : qsTr("xgboost - regression + lag"), value: "xgboostRegLag"},
+										//{label : qsTr("prophet - regression + lag"), value: "prophetRegLag"},
+										//{label : qsTr("xgboost - regression"), value: "xgboostReg"},
+										//{label : qsTr("xgboost - regression + lag"), value: "xgboostRegLag"},
 										{label : qsTr("bart - regression"), value: "bartReg" },
-										{label : qsTr("bart - regression + lag"), value: "bartRegLag"},
-										{label : qsTr("bart - stack"), value: "bartStackReg"}
+										{label : qsTr("bart - regression + lag"), value: "bartRegLag"}
+										//{label : qsTr("bart - stack"), value: "bartStackReg"}
 
 
 
@@ -423,11 +436,11 @@ Form
 				CheckBox{ name: "metricBias"; 		label: qsTr("Bias"); checked: true}
 				CheckBox{ name: "metricPit";		label: qsTr("Probability integral transform"); checked: true}
 			}
-			
-			
-			
 
-		
+
+
+
+
 		Group
 		{
 			title: qsTr("Deterministic")
@@ -464,7 +477,7 @@ Form
 		}
 
 
-		
+
 	}
 
 
@@ -494,6 +507,7 @@ Form
 				}
 			}
 			//CheckBox{name: "modelsToPlotCredibleInterval"; label: qsTr("Show credible interval")}
+			IntegerField{name: "modelsToPlotSlices"; label: "Max slices shown:"; defaultValue: maxSlices.value ; max: maxSlices.value ;min:1}
 
 		}
 	}
@@ -505,7 +519,7 @@ Form
 		CheckBox
 		{
 			name: "checkPerformBma"
-			label: "Perform BMA"
+			label: "Perform eBMA"
 			id: doBMA
 			//checked: true
 
@@ -519,6 +533,7 @@ Form
 			RadioButtonGroup
 			{
 				name: "bmaTestPeriod"
+				visible: false
 				title: "Evaluation Method"
 				RadioButton{ value: "bmaTestNextSlice"; label: qsTr("Next test slice"); checked: true}
 				RadioButton
@@ -592,7 +607,7 @@ Form
 				//	name: "timepoints"
 				//	label: qsTr("Time points")
 				//	childrenOnSameRow: true
-					IntegerField{name: "futurePredictionPoints"; afterLabel: qsTr("data points");min: 0;defaultValue: 0}
+					IntegerField{name: "futurePredictionPoints"; afterLabel: qsTr("data points");min: 1; defaultValue: resampleForecastHorizon.value }
 				//	checked: true
 				//}
 
@@ -604,7 +619,7 @@ Form
 				//	IntegerField{name: "futurePredictionDays"; min: 0; defaultValue: 0}
 //
 				//}
-				
+
 			}
 
 			RadioButtonGroup
@@ -618,29 +633,29 @@ Form
 					checked: true
 					label: qsTr("Last")
 					childrenOnSameRow: true
-						IntegerField{name: "futurePredTrainingPoints"; afterLabel: qsTr("data points"); defaultValue: 200}
+						IntegerField{name: "futurePredTrainingPoints"; afterLabel: qsTr("data points"); defaultValue: resampleInitialTraining.value}
 				}
 				RadioButton{name: "all"; label: qsTr("All data points")}
 
 		}
 	}
 
-	Group 
+	Group
 	{
 
-	
+
 		CheckBox
 		{
 			name: "checkFuturePredictionPlot"
 			label: "Future prediction plot"
-			checked: false
+			checked: true
 			CheckBox
 			{
 				name: "futurePredSpreadPointsEqually"
 				label: qsTr("Spread points equally")
 				checked: true
 			}
-			
+
 		}
 		CheckBox
 		{
@@ -649,25 +664,25 @@ Form
 			checked: false
 			enabled: preferencesModel.reportingMode
 			CIField{name: "futurePredThreshold"; label: "Out-of-bound probability threshold"}
-		
+
 		}
 
 	}
 
 	}
 
-	Section
-	{
-		title: qsTr("Advanced Options")
+	//Section
+	//{
+		//title: qsTr("Advanced Options")
 
-		CheckBox{name: 'parallelComputation'; label: 'Parallel model computation';checked: true}
-
-
-		IntegerField{name: "resampleSkip"; label: qsTr("Skip between training slices");defaultValue: resampleForecastHorizon.value}
+		//CheckBox{name: 'parallelComputation'; label: 'Parallel model computation';checked: true}
 
 
 
-	}
+
+
+
+	//}
 
 
 

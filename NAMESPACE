@@ -1,3 +1,2 @@
 import(jaspBase)
 export(predictiveAnalytics)
-export(multiVarControl)

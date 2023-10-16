@@ -1,7 +1,7 @@
 Package: jaspPredictiveAnalytics
 Type: Package
 Title: A module for JASP
-Version: 0.18.0
+Version: 0.18.1
 Date: 2020-10-15
 Author: JASP Team
 Website: jasp-stats.org
@@ -13,17 +13,15 @@ Imports:
   jaspBase,
   jaspGraphs,
   bsts,
-  parallel,
   bssm,
   precrec,
-  future,
-  future.apply,
   reshape2,
   Boom,
   lubridate,
   prophet,
   BART,
-  EBMAforecast
+  EBMAforecast,
+  imputeTS
 Suggests:
   testthat
 Remotes:
