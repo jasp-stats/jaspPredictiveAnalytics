@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-10-06 00:47+0000\n"
+"PO-Revision-Date: 2023-10-16 10:04+0000\n"
 "Last-Translator: Johannes Keyser <joke@fsfe.org>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/jasp/"
 "jasppredictiveanalytics/de/>\n"
@@ -371,12 +371,10 @@ msgctxt "predictiveAnalytics|"
 msgid "bsts - autoregressive model - regression + lag"
 msgstr "bsts – autoregressives Modell – Regression + Verzögerung"
 
-#, fuzzy
 msgctxt "predictiveAnalytics|"
 msgid "prophet"
 msgstr "Prophet"
 
-#, fuzzy
 msgctxt "predictiveAnalytics|"
 msgid "prophet - regression"
 msgstr "Prophet - Regression"
@@ -428,17 +426,14 @@ msgctxt "predictiveAnalytics|"
 msgid "Dawid–Sebastiani score"
 msgstr "Dawid–Sebastiani-Score"
 
-#, fuzzy
 msgctxt "predictiveAnalytics|"
 msgid "Log score"
 msgstr "Log-Score"
 
-#, fuzzy
 msgctxt "predictiveAnalytics|"
 msgid "Coverage"
 msgstr "Überdeckung"
 
-#, fuzzy
 msgctxt "predictiveAnalytics|"
 msgid "Bias"
 msgstr "Verzerrung"
@@ -500,10 +495,9 @@ msgctxt "predictiveAnalytics|"
 msgid "Same test slice"
 msgstr "Gleicher Testabschnitt"
 
-#, fuzzy
 msgctxt "predictiveAnalytics|"
 msgid "Last"
-msgstr "Letzter"
+msgstr "Letzte"
 
 msgctxt "predictiveAnalytics|"
 msgid "% of data"
