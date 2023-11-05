@@ -88,8 +88,9 @@ msgstr "Prozent"
 msgid "Average Deviation"
 msgstr "Mittlere Abweichung"
 
+#, fuzzy
 msgid "Running models"
-msgstr ""
+msgstr "Gleitende Modelle"
 
 msgid "R%s"
 msgstr "R%s"
@@ -124,8 +125,12 @@ msgstr ""
 msgid "percent."
 msgstr "Prozent."
 
-#~ msgid "/"
-#~ msgstr "/"
+msgid "/"
+msgstr "/"
 
-#~ msgid ":"
-#~ msgstr ":"
+msgid ":"
+msgstr ":"
+
+#, fuzzy
+msgid "Running model"
+msgstr "Gleitendes Modell"
