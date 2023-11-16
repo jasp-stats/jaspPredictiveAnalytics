@@ -16,7 +16,6 @@ msgstr ""
 msgid "Column input is wrong"
 msgstr "Spalteneingabe ist falsch"
 
-#, fuzzy
 msgid ""
 "<p style=\"color:tomato;\"><b>This is a warning!</b></p>\n"
 "                           Error proportion limit of %#.2f is crossed for "
@@ -28,7 +27,7 @@ msgstr ""
 "                           Die Fehleranteilsgrenze von %#.2f wird zum ersten "
 "Mal am Datenpunkt %i im Schätzungszeitraum überschritten. Zu diesem "
 "Zeitpunkt werden im Durchschnitt %#.2f Datenpunkte mit einer Untergrenze von "
-"%#.2f und einer Obergrenze von %#.2f als außer-Kontrolle eingeschätzt </p>"
+"%#.2f und einer Obergrenze von %#.2f als unkontrollierbar eingeschätzt </p>"
 
 msgid ""
 "<p \">No warning. The limit of %#.2f is not crossed during the estimation "
@@ -37,7 +36,6 @@ msgstr ""
 "<p \">Keine Warnung. Die Grenze von %#.2f wird während des "
 "Schätzungszeitraums nicht überschritten.</p>"
 
-#, fuzzy
 msgid ""
 "<p style=\"color:tomato;\"><b>This is a warning!</b></p>\n"
 "                           Error proportion limit of %#.2f is crossed for "
@@ -59,7 +57,7 @@ msgstr ""
 "Vorhersagezeitraums nicht überschritten.</p>"
 
 msgid "Basic control plot"
-msgstr ""
+msgstr "Einfaches Kontrolldiagramm"
 
 msgid "Autocorrelation Function Plots"
 msgstr "Diagramme Autokorrelationsfunktion"
@@ -88,9 +86,8 @@ msgstr "Prozent"
 msgid "Average Deviation"
 msgstr "Mittlere Abweichung"
 
-#, fuzzy
 msgid "Running models"
-msgstr "Gleitende Modelle"
+msgstr "Starte Modelle"
 
 msgid "R%s"
 msgstr "R%s"
@@ -104,33 +101,29 @@ msgstr ""
 "angefordert, als in der Variablen 'In Training einbeziehen' angegeben. "
 "Verringern Sie den Prognosehorizont oder ändern Sie den Trainingsindikator"
 
-#, fuzzy
 msgid ""
 "Warning! The process is predicted to cross the out-of-control probability "
 "threshold for the first time at time point:"
 msgstr ""
-"Warnung! Es wird vorhergesagt, dass der Prozess den Außer-Kontrolle-"
-"Wahrscheinlichkeitsschwellenwert zum ersten Mal bei folgendem Zeitpunkt "
-"überschreitet:"
+"Warnung! Vermutlich erreicht der Prozess einen Kipppunkt, bei dem er außer "
+"Kontrolle gerät und zwar zu folgendem Zeitpunkt:"
 
-#, fuzzy
 msgid ""
 "No warning. The process is not predicted to cross the out-of-control "
 "probability threshold. The highest out-of-bound probability is:"
 msgstr ""
-"Keine Warnung. Es wird nicht vorhergesagt, dass der Prozess den Außer-"
-"Kontrolle-Wahrscheinlichkeitsschwellenwert überschreitet. Die höchste "
+"Keine Warnung. Dieser Prozess wird vermutlich keinen Kippunkt erreichen, bei "
+"dem er außer Kontrolle gerät. Die höchste "
 "Grenzwertüberschreitungswahrscheinlichkeit ist:"
 
 msgid "percent."
 msgstr "Prozent."
 
-#~ msgid "/"
-#~ msgstr "/"
+msgid "/"
+msgstr "/"
 
-#~ msgid ":"
-#~ msgstr ":"
+msgid ":"
+msgstr ":"
 
-#, fuzzy
-#~ msgid "Running model"
-#~ msgstr "Gleitendes Modell"
+msgid "Running model"
+msgstr "starte Modell"
