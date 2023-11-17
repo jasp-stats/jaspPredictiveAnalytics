@@ -203,6 +203,16 @@ msgstr ""
 "waarschijnlijkheidsdrempel voor out-of-control zal overschrijden. De hoogste "
 "out-of-bound waarschijnlijkheid is:"
 
+msgid ""
+"Warning! The process is predicted to cross the out-of-control probability "
+"threshold for the first time at time point:"
+msgstr ""
+
+msgid ""
+"No warning. The process is not predicted to cross the out-of-control "
+"probability threshold. The highest out-of-bound probability is:"
+msgstr ""
+
 #~ msgid ""
 #~ "Cannot compute forecast. Larger forecast horizon requested than indicated "
 #~ "by 'Include in Training' variable. Reduce forecast horizon or change "
