@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-10-16 10:04+0000\n"
+"PO-Revision-Date: 2023-11-25 05:11+0000\n"
 "Last-Translator: Johannes Keyser <joke@fsfe.org>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/jasp/"
 "jasppredictiveanalytics/de/>\n"
@@ -9,7 +9,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.1-dev\n"
+"X-Generator: Weblate 5.2.1-rc\n"
 "X-Qt-Contexts: true\n"
 
 msgctxt "Description|"
@@ -297,9 +297,10 @@ msgctxt "predictiveAnalytics|"
 msgid "Forecast Evaluation"
 msgstr "Prognoseauswertung"
 
+#, fuzzy
 msgctxt "predictiveAnalytics|"
 msgid "Evaluation Plan"
-msgstr ""
+msgstr "Auswertungsplan"
 
 msgctxt "predictiveAnalytics|"
 msgid "Training window"
@@ -321,9 +322,10 @@ msgctxt "predictiveAnalytics|"
 msgid "Cumulative training"
 msgstr "Kumulatives Training"
 
+#, fuzzy
 msgctxt "predictiveAnalytics|"
 msgid "Show evaluation plan"
-msgstr ""
+msgstr "Auswertungsplan anzeigen"
 
 msgctxt "predictiveAnalytics|"
 msgid "Model Choice"
