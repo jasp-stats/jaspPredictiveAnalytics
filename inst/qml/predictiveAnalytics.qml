@@ -332,12 +332,12 @@ Form
 				name: "resampleForecastHorizon"
 				id: "resampleForecastHorizon"
 				label: qsTr("Prediction window")
-				defaultValue: Math.floor((dataSetModel.rowCount() / 5)*0.6)
+				defaultValue: Math.floor((dataSetInfo.rowCount / 5)*0.6)
 			}
 			IntegerField{
 				name: "resampleInitialTraining"
 				label: qsTr("Training window")
-				defaultValue: Math.floor((dataSetModel.rowCount() / 5)*1.4)
+				defaultValue: Math.floor((dataSetInfo.rowCount / 5)*1.4)
 			}
             IntegerField{name: "resampleSkip"; label: qsTr("Skip between training slices");defaultValue: resampleForecastHorizon.value}
 
