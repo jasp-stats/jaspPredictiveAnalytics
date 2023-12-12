@@ -44,7 +44,7 @@
 
 
   colnames(trainData)[colnames(trainData)=="time"] <- "ds"
-  m <- prophet::prophet(...,weekly.seasonality = F,changepoint.range = 0.9)
+  m <- prophet::prophet(...)
   if(formula != as.formula("y ~ time")){
     for(reg in labels(terms(formula))[-1])
       m <- prophet::add_regressor(m,reg)
@@ -60,12 +60,9 @@
 
 .prophetPredictHelper <- function(fit,testData, horizon,recursive = F,...){
 
-  if(is.null(testData))
-    future <- prophet::make_future_dataframe(fit, periods = horizon,freq = 33,include_history = F)
-  else if(!is.null(testData)){
-    future <- data.frame(ds = testData$time)
-    future[,names(fit$extra_regressors)] <- testData[,names(fit$extra_regressors)]
-  }
+
+  future <- data.frame(ds = testData$time)
+  future[,names(fit$extra_regressors)] <- testData[,names(fit$extra_regressors)]
   pred <- predict(fit,future)
   dist <- prophet::predictive_samples(fit,future)[["yhat"]]
 
