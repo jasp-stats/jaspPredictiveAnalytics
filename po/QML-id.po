@@ -5,14 +5,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Qt-Contexts: true\n"
 
-msgctxt "Description|"
-msgid "Predictive Analytics"
-msgstr ""
-
-msgctxt "Description|"
-msgid "This module offers predictive analytics."
-msgstr ""
-
 msgctxt "multiVarControl|"
 msgid "Control Variables"
 msgstr ""
@@ -265,14 +257,6 @@ msgid "Feature Engineering"
 msgstr ""
 
 msgctxt "predictiveAnalytics|"
-msgid "Remove zero-variance variables"
-msgstr ""
-
-msgctxt "predictiveAnalytics|"
-msgid "Remove variables that are stronger correlated than:"
-msgstr ""
-
-msgctxt "predictiveAnalytics|"
 msgid "Forecast Evaluation"
 msgstr ""
 
@@ -457,10 +441,6 @@ msgid "Future Prediction"
 msgstr ""
 
 msgctxt "predictiveAnalytics|"
-msgid "Prediction horizon"
-msgstr ""
-
-msgctxt "predictiveAnalytics|"
 msgid "data points"
 msgstr ""
 
@@ -474,4 +454,67 @@ msgstr ""
 
 msgctxt "predictiveAnalytics|"
 msgid "Impute missing values"
+msgstr ""
+
+msgctxt "Description|"
+msgid "Predictive Analytics (beta)"
+msgstr ""
+
+msgctxt "Description|"
+msgid ""
+"This module offers time series predictions and combines them with quality "
+"control concepts. That way one can predict whether a process will exeed a "
+"specified boundary in the future."
+msgstr ""
+
+msgctxt "predictiveAnalytics|"
+msgid "Prediction type"
+msgstr ""
+
+msgctxt "predictiveAnalytics|"
+msgid "No forecast - verification only"
+msgstr ""
+
+msgctxt "predictiveAnalytics|"
+msgid "Training indicator"
+msgstr ""
+
+msgctxt "predictiveAnalytics|"
+msgid "Periodical"
+msgstr ""
+
+msgctxt "predictiveAnalytics|"
+msgid "Number of periods"
+msgstr ""
+
+msgctxt "predictiveAnalytics|"
+msgid "Unit"
+msgstr ""
+
+msgctxt "predictiveAnalytics|"
+msgid "Seconds"
+msgstr ""
+
+msgctxt "predictiveAnalytics|"
+msgid "Minutes"
+msgstr ""
+
+msgctxt "predictiveAnalytics|"
+msgid "Hours"
+msgstr ""
+
+msgctxt "predictiveAnalytics|"
+msgid "Days"
+msgstr ""
+
+msgctxt "predictiveAnalytics|"
+msgid "Weeks"
+msgstr ""
+
+msgctxt "predictiveAnalytics|"
+msgid "Months"
+msgstr ""
+
+msgctxt "predictiveAnalytics|"
+msgid "Years"
 msgstr ""
