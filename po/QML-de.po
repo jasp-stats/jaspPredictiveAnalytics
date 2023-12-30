@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-11-25 05:11+0000\n"
+"PO-Revision-Date: 2023-12-28 19:08+0000\n"
 "Last-Translator: Johannes Keyser <joke@fsfe.org>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/jasp/"
 "jasppredictiveanalytics/de/>\n"
@@ -9,7 +9,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.2.1-rc\n"
+"X-Generator: Weblate 5.4-dev\n"
 "X-Qt-Contexts: true\n"
 
 msgctxt "Description|"
@@ -76,9 +76,10 @@ msgctxt "multiVarControl|"
 msgid "Proportion"
 msgstr "Anteil"
 
+#, fuzzy
 msgctxt "multiVarControl|"
 msgid "Proportion limits for reporting"
-msgstr ""
+msgstr "Anteilsgrenzen für Berichterstattung"
 
 msgctxt "multiVarControl|"
 msgid "Estimation limit"
@@ -88,7 +89,6 @@ msgctxt "multiVarControl|"
 msgid "Prediction limit"
 msgstr "Vorhersagegrenze"
 
-#, fuzzy
 msgctxt "multiVarControl|"
 msgid "Proportion Estimation"
 msgstr "Anteilsschätzung"
@@ -105,9 +105,10 @@ msgctxt "multiVarControl|"
 msgid "MCMC draws"
 msgstr "MCMC-Ziehungen"
 
+#, fuzzy
 msgctxt "multiVarControl|"
 msgid "Multivariate binary control plot"
-msgstr ""
+msgstr "Multivariates binäres Regeldiagramm"
 
 msgctxt "multiVarControl|"
 msgid "Prediction"
@@ -219,7 +220,7 @@ msgstr "Ende"
 
 msgctxt "predictiveAnalytics|"
 msgid "Display control chart"
-msgstr ""
+msgstr "Regelkarte anzeigen"
 
 msgctxt "predictiveAnalytics|"
 msgid "Spread points equally"
