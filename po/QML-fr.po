@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-04-06 21:01+0000\n"
+"PO-Revision-Date: 2024-04-07 21:10+0000\n"
 "Last-Translator: robachowyk <kaya.robach@gmail.com>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/jasp/"
 "jasppredictiveanalytics/fr/>\n"
@@ -70,7 +70,7 @@ msgstr ""
 
 msgctxt "multiVarControl|"
 msgid "Estimation limit"
-msgstr ""
+msgstr "Estimation limite"
 
 msgctxt "multiVarControl|"
 msgid "Prediction limit"
