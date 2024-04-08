@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-04-07 21:10+0000\n"
+"PO-Revision-Date: 2024-04-09 13:34+0000\n"
 "Last-Translator: robachowyk <kaya.robach@gmail.com>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/jasp/"
 "jasppredictiveanalytics/fr/>\n"
@@ -86,7 +86,7 @@ msgstr ""
 
 msgctxt "multiVarControl|"
 msgid "data points"
-msgstr ""
+msgstr "points de données"
 
 msgctxt "multiVarControl|"
 msgid "MCMC draws"
