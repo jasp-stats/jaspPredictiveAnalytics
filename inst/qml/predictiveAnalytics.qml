@@ -51,7 +51,7 @@ Form
 			name: "factors"
 			id: factors
 			title: qsTr("Factors")
-			allowedColumns: ["ordinal", "nominal", "nominalText"]
+			allowedColumns: ["ordinal", "nominal"]
 		}
 
 		AssignedVariablesList
