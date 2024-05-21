@@ -1,12 +1,6 @@
 import QtQuick
 import QtQuick.Layouts
 import JASP.Controls
-import JASP.Widgets
-
-
-
-
-
 
 Form
 {
@@ -58,7 +52,7 @@ Form
 		{
 			name: "trainingIndicator"
 			id: trainingIndicatorVariable
-		 	title: qsTr("Include in Training")
+			title: qsTr("Include in Training")
 			suggestedColumns: ["scale"]
 			singleVariable: true
 			info : qsTr("Logical variable (only 0 or 1) indicating which cases should be used for training and verifying the models (= 1) and which cases should be predicted (= 0). This variable is necessary for making predictions when covariates and factors are supplied")
@@ -78,10 +72,10 @@ Form
 				name: "errorBoundMethodDrop"
 				id: methodSelection
 				values:
- 				[
+				[
 					{ label: "Data Based", value: "stdDevBound"},
-    				{ label: "Manual Bounds", value: "manualBound"}
-  				]
+					{ label: "Manual Bounds", value: "manualBound"}
+				]
 			}
 
 			Group
@@ -180,13 +174,13 @@ Form
 				}
 				RadioButtonGroup
 
-            	{
-                	name: "controlLineType"
-                	radioButtonsOnSameRow: true
-                	RadioButton { value: "points";	label: qsTr("Points") }
-                	RadioButton { value: "line";	label: qsTr("Line"); checked: true }
-                	RadioButton { value: "both";	label: qsTr("Both")}
-            	}
+				{
+					name: "controlLineType"
+					radioButtonsOnSameRow: true
+					RadioButton { value: "points";	label: qsTr("Points") }
+					RadioButton { value: "line";	label: qsTr("Line"); checked: true }
+					RadioButton { value: "both";	label: qsTr("Both")}
+				}
 
 				RadioButtonGroup
 				{
@@ -242,6 +236,7 @@ Form
 
 			CheckBox
 			{
+				id: summaryStatsTableCheck
 				name: "summaryStatsTableCheck"
 				label: "Control summary table"
 			}
@@ -255,7 +250,7 @@ Form
 					name: "outlierTableFocusCheck"
 					label: qsTr("Custom table focus")
 					childrenOnSameRow: false
-					enabled: "summaryStatsTableCheck".checked
+					enabled: summaryStatsTableCheck.checked
 					// fix that end period is from start to nrow of series
 					Group
 					{
@@ -321,33 +316,37 @@ Form
 
 	}
 	Section
-    {
-        title: qsTr("Forecast Evaluation")
+	{
+		title: qsTr("Forecast Evaluation")
 		Group
 		{
 			Layout.columnSpan: 2
 			columns:2
 			Group
-        {
+		{
 			title: qsTr("Evaluation Plan")
-            //Layout.columnSpan: 1
+			//Layout.columnSpan: 1
 			IntegerField{
 				name: "resampleForecastHorizon"
 				min: 2
-				max: dataSetInfo.rowCount - resampleInitialTraining.value
-				id: "resampleForecastHorizon"
+				max: Math.max(min, dataSetInfo.rowCount - resampleInitialTraining.value)
+				id: resampleForecastHorizon
 				label: qsTr("Prediction window")
-				defaultValue: Math.floor((dataSetInfo.rowCount / 5)*0.6)
+				defaultValue: defValue >= min && devValue <= max ? defValue : (defValue < min ? min : max)
+
+				property int defValue: Math.floor((dataSetInfo.rowCount / 5)*0.6)
 			}
 			IntegerField{
 				name: "resampleInitialTraining"
-				max: dataSetInfo.rowCount - resampleForecastHorizon.value
+				max: Math.max(min, dataSetInfo.rowCount - resampleForecastHorizon.value)
 				min: 2
-				id: "resampleInitialTraining"
+				id: resampleInitialTraining
 				label: qsTr("Training window")
-				defaultValue: Math.floor((dataSetInfo.rowCount / 5)*1.4)
+				defaultValue: defValue >= min && devValue <= max ? defValue : (defValue < min ? min : max)
+
+				property int defValue: Math.floor((dataSetInfo.rowCount / 5)*1.4)
 			}
-            IntegerField{name: "resampleSkip"; label: qsTr("Skip between training slices");defaultValue: resampleForecastHorizon.value}
+			IntegerField{name: "resampleSkip"; label: qsTr("Skip between training slices");defaultValue: resampleForecastHorizon.value}
 
 			RadioButtonGroup
 			{
@@ -357,8 +356,8 @@ Form
 				RadioButton{ value: "head"; label: qsTr("Start")}
 				RadioButton{ value: "tail"; label: qsTr("End"); checked: true}
 			}
-            IntegerField{name: "resampleMaxSlice"; id: "maxSlices"; label: qsTr("Maximum nr. of slices"); defaultValue:5; min: 1}
-            CheckBox{name: "resampleCumulativeCheck"; label: qsTr("Cumulative training")}
+			IntegerField{name: "resampleMaxSlice"; id: maxSlices; label: qsTr("Maximum nr. of slices"); defaultValue:5; min: 1}
+			CheckBox{id: resampleCumulativeCheck; name: "resampleCumulativeCheck"; label: qsTr("Cumulative training")}
 
 			CheckBox
 			{
@@ -367,7 +366,7 @@ Form
 				CheckBox{ name: "resamplePlanPlotEqualDistance"; label: qsTr("Spread points equally"); checked: true}
 				IntegerField{name: "resamplePlanPlotMaxPlots"; label: "Max slices shown:"; defaultValue: maxSlices.value ; max: maxSlices.value ;min:1}
 			}
-        }
+		}
 		}
 
 
@@ -389,7 +388,7 @@ Form
 				AvailableVariablesList
 				{
 					name:"availableModelsHidden"
-					
+
 					// at the current moment, the user can choose models from a variety of predefined models
 					// some of these models contain a regressive component or lagged values
 					// but they only work if the user provided covariates or created some in the feature engineering section
@@ -403,7 +402,7 @@ Form
 
 
 						// 'pure' time series models that only depend on time variable
- 						// triggered if ready == T as time and dependent are needed for that
+						// triggered if ready == T as time and dependent are needed for that
 						if(dependent.count > 0 && time.count > 0)
 						{
 							models[0] = {label : qsTr("linear regression - y ~ time"), value: "lmSpike"}
@@ -446,7 +445,7 @@ Form
 				{
 					name: "availableModels"
 					source: "availableModelsHidden"
-				} 
+				}
 				AssignedVariablesList
 				{
 					name: "selectedModels"
@@ -645,7 +644,7 @@ Form
 					value: "noFuturePrediction"
 					checked: trainingIndicatorVariable.count == 0
 					id: noFuturePrediction
-					
+
 					label: qsTr("No forecast - verification only")
 				}
 
@@ -666,7 +665,7 @@ Form
 				//	childrenOnSameRow: true
 				//	IntegerField
 				//	{
-				//		name: "futurePredictionPoints"; afterLabel: qsTr("data points");min: 1; defaultValue: resampleForecastHorizon.value 
+				//		name: "futurePredictionPoints"; afterLabel: qsTr("data points");min: 1; defaultValue: resampleForecastHorizon.value
 				//	}
 				//}
 
