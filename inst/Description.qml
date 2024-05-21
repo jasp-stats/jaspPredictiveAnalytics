@@ -5,7 +5,7 @@ Description
 {
 	name		: "jaspPredictiveAnalytics"
 
-	title		: qsTr("Predictive Analytics (beta)")
+	title		: qsTr("Predictive Analytics")
 	description	: qsTr("This module offers time series predictions and combines them with quality control concepts. That way one can predict whether a process will exeed a specified boundary in the future.")
 	version			: "0.19.0"
 
