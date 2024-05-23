@@ -459,10 +459,6 @@ msgid "All data points"
 msgstr ""
 
 msgctxt "Description|"
-msgid "Predictive Analytics (beta)"
-msgstr ""
-
-msgctxt "Description|"
 msgid ""
 "This module offers time series predictions and combines them with quality "
 "control concepts. That way one can predict whether a process will exeed a "
@@ -519,4 +515,8 @@ msgstr ""
 
 msgctxt "predictiveAnalytics|"
 msgid "Years"
+msgstr ""
+
+msgctxt "Description|"
+msgid "Predictive Analytics"
 msgstr ""
