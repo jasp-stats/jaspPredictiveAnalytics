@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-05-04 13:38+0000\n"
+"PO-Revision-Date: 2024-05-19 20:46+0000\n"
 "Last-Translator: robachowyk <kaya.robach@gmail.com>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/jasp/"
 "jasppredictiveanalytics/fr/>\n"
@@ -9,7 +9,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.5.3\n"
+"X-Generator: Weblate 5.6-dev\n"
 "X-Qt-Contexts: true\n"
 
 msgctxt "multiVarControl|"
@@ -98,7 +98,7 @@ msgstr ""
 
 msgctxt "multiVarControl|"
 msgid "Prediction"
-msgstr ""
+msgstr "Prédiction"
 
 msgctxt "multiVarControl|"
 msgid "Prediction horizon"
@@ -110,11 +110,11 @@ msgstr ""
 
 msgctxt "multiVarControl|"
 msgid "Prediction table"
-msgstr ""
+msgstr "Table de prédiction"
 
 msgctxt "multiVarControl|"
 msgid "Show predicted number"
-msgstr ""
+msgstr "Afficher le nombre prédit"
 
 msgctxt "multiVarControl|"
 msgid "Bin predictions every"
@@ -122,7 +122,7 @@ msgstr ""
 
 msgctxt "predictiveAnalytics|"
 msgid "Dependent Variable"
-msgstr ""
+msgstr "Variable Dépendante"
 
 msgctxt "predictiveAnalytics|"
 msgid "Time series variable to be predicted. (needed)"
