@@ -63,3 +63,4 @@ LH_new_clean.csv
 .Rbuildignore
 fridtjof.csv
 tempresJASP.rds
+_processedLockFile.lock
