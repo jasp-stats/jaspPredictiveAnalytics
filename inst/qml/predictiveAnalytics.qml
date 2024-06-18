@@ -15,7 +15,7 @@ Form
 			name: "dependent"
 			id: dependent
 			title: qsTr("Dependent Variable")
-			suggestedColumns: ["scale"]
+			allowedColumns: ["scale"]
 			singleVariable: true
 			info: qsTr("Time series variable to be predicted. (needed)")
 		}
@@ -25,7 +25,7 @@ Form
 			name: "time"
 			id: time
 			title: qsTr("Time")
-			suggestedColumns: ["nominal"]
+			allowedColumns: ["nominal"]
 			singleVariable: true
 			info: qsTr("Time variable that each corresponds to the time stamp of each observation. Can be in the following formats: ['YYYY-MM-DD', 'YYYY/MM/DD', 'YYYY-MM-DD HH:MM:SS', 'YYYY/MM/DD HH:MM:SS'] (needed)")
 		}
@@ -35,7 +35,6 @@ Form
 			name: "covariates"
 			id: covariates
 			title: qsTr("Covariates")
-			suggestedColumns: ["scale"]
 			allowedColumns: ["scale"]
 			info: qsTr("Covariates to be used in the prediction model. (optional)")
 		}
@@ -45,7 +44,7 @@ Form
 			name: "factors"
 			id: factors
 			title: qsTr("Factors")
-			allowedColumns: ["ordinal", "nominal"]
+			allowedColumns: ["nominal"]
 		}
 
 		AssignedVariablesList
@@ -53,7 +52,7 @@ Form
 			name: "trainingIndicator"
 			id: trainingIndicatorVariable
 			title: qsTr("Include in Training")
-			suggestedColumns: ["scale"]
+			allowedColumns: ["nominal"]
 			singleVariable: true
 			info : qsTr("Logical variable (only 0 or 1) indicating which cases should be used for training and verifying the models (= 1) and which cases should be predicted (= 0). This variable is necessary for making predictions when covariates and factors are supplied")
 		}

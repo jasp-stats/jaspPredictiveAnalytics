@@ -8,7 +8,7 @@ Form
     VariablesForm
     {
         AvailableVariablesList	{ name: "allVariablesList" }
-        AssignedVariablesList	{ name: "variables";	title: qsTr("Control Variables");	suggestedColumns: ["scale"]}
+        AssignedVariablesList	{ name: "variables";	title: qsTr("Control Variables");	allowedColumns: ["scale"]}
     }
 
 
