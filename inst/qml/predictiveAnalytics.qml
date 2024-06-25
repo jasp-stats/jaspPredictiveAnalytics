@@ -332,7 +332,7 @@ Form
 				max: Math.max(min, dataSetInfo.rowCount - resampleInitialTraining.value)
 				id: resampleForecastHorizon
 				label: qsTr("Prediction window")
-				defaultValue: defValue >= min && devValue <= max ? defValue : (defValue < min ? min : max)
+				defaultValue: defValue >= min && defValue <= max ? defValue : (defValue < min ? min : max)
 
 				property int defValue: Math.floor((dataSetInfo.rowCount / 5)*0.6)
 			}
@@ -342,7 +342,7 @@ Form
 				min: 2
 				id: resampleInitialTraining
 				label: qsTr("Training window")
-				defaultValue: defValue >= min && devValue <= max ? defValue : (defValue < min ? min : max)
+				defaultValue: defValue >= min && defValue <= max ? defValue : (defValue < min ? min : max)
 
 				property int defValue: Math.floor((dataSetInfo.rowCount / 5)*1.4)
 			}
