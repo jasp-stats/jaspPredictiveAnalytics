@@ -12,6 +12,7 @@ msgstr ""
 "|| n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 5.6-dev\n"
 "X-Qt-Contexts: true\n"
+"X-Language: pl\n"
 
 msgctxt "Description|"
 msgid "Predictive Analytics"
