@@ -6,6 +6,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Language: br_FR\n"
 "X-Qt-Contexts: true\n"
+"X-Language: pt_BR\n"
 
 msgctxt "multiVarControl|"
 msgid "Control Variables"
