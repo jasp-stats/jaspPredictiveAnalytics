@@ -1,25 +1,15 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-11-18 12:02+0000\n"
-"Last-Translator: Koen Derks <koen-derks@hotmail.com>\n"
-"Language-Team: Dutch <https://hosted.weblate.org/projects/jasp/"
-"jasppredictiveanalytics/nl/>\n"
-"Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.2\n"
-"X-Qt-Contexts: true\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Language: nl\n"
+"X-Qt-Contexts: true\n"
 
 msgctxt "Description|"
 msgid "Predictive Analytics"
 msgstr "Voorspellende Analyses"
-
-msgctxt "Description|"
-msgid "This module offers predictive analytics."
-msgstr "Deze module biedt voorspellende analyses."
 
 msgctxt "multiVarControl|"
 msgid "Control Variables"
@@ -281,14 +271,6 @@ msgid "Feature Engineering"
 msgstr "Kenmerk Engineering"
 
 msgctxt "predictiveAnalytics|"
-msgid "Remove zero-variance variables"
-msgstr "Verwijder variabelen zonder variantie"
-
-msgctxt "predictiveAnalytics|"
-msgid "Remove variables that are stronger correlated than:"
-msgstr "Verwijder variabelen die sterker gecorreleerd zijn dan:"
-
-msgctxt "predictiveAnalytics|"
 msgid "Forecast Evaluation"
 msgstr "Forecast Evaluatie"
 
@@ -473,10 +455,6 @@ msgid "Future Prediction"
 msgstr "Toekomstvoorspelling"
 
 msgctxt "predictiveAnalytics|"
-msgid "Prediction horizon"
-msgstr "Voorspellingshorizon"
-
-msgctxt "predictiveAnalytics|"
 msgid "data points"
 msgstr "datapunten"
 
@@ -491,3 +469,62 @@ msgstr "Skip tussen trainingsplakjes"
 msgctxt "predictiveAnalytics|"
 msgid "Impute missing values"
 msgstr "Imputeer missende waarden"
+
+msgctxt "Description|"
+msgid ""
+"This module offers time series predictions and combines them with quality "
+"control concepts. That way one can predict whether a process will exeed a "
+"specified boundary in the future."
+msgstr ""
+
+msgctxt "predictiveAnalytics|"
+msgid "Prediction type"
+msgstr ""
+
+msgctxt "predictiveAnalytics|"
+msgid "No forecast - verification only"
+msgstr ""
+
+msgctxt "predictiveAnalytics|"
+msgid "Training indicator"
+msgstr ""
+
+msgctxt "predictiveAnalytics|"
+msgid "Periodical"
+msgstr ""
+
+msgctxt "predictiveAnalytics|"
+msgid "Number of periods"
+msgstr ""
+
+msgctxt "predictiveAnalytics|"
+msgid "Unit"
+msgstr ""
+
+msgctxt "predictiveAnalytics|"
+msgid "Seconds"
+msgstr ""
+
+msgctxt "predictiveAnalytics|"
+msgid "Minutes"
+msgstr ""
+
+msgctxt "predictiveAnalytics|"
+msgid "Hours"
+msgstr ""
+
+msgctxt "predictiveAnalytics|"
+msgid "Days"
+msgstr ""
+
+msgctxt "predictiveAnalytics|"
+msgid "Weeks"
+msgstr ""
+
+msgctxt "predictiveAnalytics|"
+msgid "Months"
+msgstr ""
+
+msgctxt "predictiveAnalytics|"
+msgid "Years"
+msgstr ""

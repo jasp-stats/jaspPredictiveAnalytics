@@ -1,25 +1,15 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-07-28 09:09+0000\n"
-"Last-Translator: Johannes Keyser <joke@fsfe.org>\n"
-"Language-Team: German <https://hosted.weblate.org/projects/jasp/"
-"jasppredictiveanalytics/de/>\n"
-"Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.7-dev\n"
-"X-Qt-Contexts: true\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Language: de\n"
+"X-Qt-Contexts: true\n"
 
 msgctxt "Description|"
 msgid "Predictive Analytics"
 msgstr "Prädiktive Analytik"
-
-msgctxt "Description|"
-msgid "This module offers predictive analytics."
-msgstr "Dieses Modul bietet Prädiktive Analytik."
 
 msgctxt "multiVarControl|"
 msgid "Control Variables"
@@ -287,14 +277,6 @@ msgid "Feature Engineering"
 msgstr ""
 
 msgctxt "predictiveAnalytics|"
-msgid "Remove zero-variance variables"
-msgstr "Null-Varianz-Variablen entfernen"
-
-msgctxt "predictiveAnalytics|"
-msgid "Remove variables that are stronger correlated than:"
-msgstr "Variablen entfernen, die stärker korreliert sind als:"
-
-msgctxt "predictiveAnalytics|"
 msgid "Forecast Evaluation"
 msgstr "Prognoseauswertung"
 
@@ -356,11 +338,6 @@ msgstr "bsts - lineares Trendmodell - Regression"
 
 #, fuzzy
 msgctxt "predictiveAnalytics|"
-msgid "bsts - linear trend model - regression + lag"
-msgstr "bsts - lineares Trendmodell - Regression + Verzögerung"
-
-#, fuzzy
-msgctxt "predictiveAnalytics|"
 msgid "bsts - autoregressive model"
 msgstr "bsts - autoregressives Modell"
 
@@ -368,11 +345,6 @@ msgstr "bsts - autoregressives Modell"
 msgctxt "predictiveAnalytics|"
 msgid "bsts - autoregressive model - regression"
 msgstr "bsts - autoregressives Modell - Regression"
-
-#, fuzzy
-msgctxt "predictiveAnalytics|"
-msgid "bsts - autoregressive model - regression + lag"
-msgstr "bsts – autoregressives Modell – Regression + Verzögerung"
 
 msgctxt "predictiveAnalytics|"
 msgid "prophet"
@@ -384,21 +356,6 @@ msgstr "Prophet - Regression"
 
 #, fuzzy
 msgctxt "predictiveAnalytics|"
-msgid "prophet - regression + lag"
-msgstr "Prophet - Regression + Verzögerung"
-
-#, fuzzy
-msgctxt "predictiveAnalytics|"
-msgid "xgboost - regression"
-msgstr "xgboost - Regression"
-
-#, fuzzy
-msgctxt "predictiveAnalytics|"
-msgid "xgboost - regression + lag"
-msgstr "xgboost - Regression + Verzögerung"
-
-#, fuzzy
-msgctxt "predictiveAnalytics|"
 msgid "bart - regression"
 msgstr "bart - Regression"
 
@@ -406,11 +363,6 @@ msgstr "bart - Regression"
 msgctxt "predictiveAnalytics|"
 msgid "bart - regression + lag"
 msgstr "bart - Regression + Verzögerung"
-
-#, fuzzy
-msgctxt "predictiveAnalytics|"
-msgid "bart - stack"
-msgstr "bart - Stapel"
 
 msgctxt "predictiveAnalytics|"
 msgid "Evaluation Metrics"
@@ -519,10 +471,6 @@ msgid "Future Prediction"
 msgstr "Zukunftsprognose"
 
 msgctxt "predictiveAnalytics|"
-msgid "Prediction horizon"
-msgstr "Prognosehorizont"
-
-msgctxt "predictiveAnalytics|"
 msgid "data points"
 msgstr "Datenpunkte"
 
@@ -531,9 +479,68 @@ msgid "All data points"
 msgstr "Alle Datenpunkte"
 
 msgctxt "predictiveAnalytics|"
-msgid "Advanced Options"
-msgstr "Weitere Optionen"
-
-msgctxt "predictiveAnalytics|"
 msgid "Skip between training slices"
 msgstr "Überspringen zwischen Trainingsabschnitten"
+
+msgctxt "Description|"
+msgid ""
+"This module offers time series predictions and combines them with quality "
+"control concepts. That way one can predict whether a process will exeed a "
+"specified boundary in the future."
+msgstr ""
+
+msgctxt "predictiveAnalytics|"
+msgid "Impute missing values"
+msgstr ""
+
+msgctxt "predictiveAnalytics|"
+msgid "Prediction type"
+msgstr ""
+
+msgctxt "predictiveAnalytics|"
+msgid "No forecast - verification only"
+msgstr ""
+
+msgctxt "predictiveAnalytics|"
+msgid "Training indicator"
+msgstr ""
+
+msgctxt "predictiveAnalytics|"
+msgid "Periodical"
+msgstr ""
+
+msgctxt "predictiveAnalytics|"
+msgid "Number of periods"
+msgstr ""
+
+msgctxt "predictiveAnalytics|"
+msgid "Unit"
+msgstr ""
+
+msgctxt "predictiveAnalytics|"
+msgid "Seconds"
+msgstr ""
+
+msgctxt "predictiveAnalytics|"
+msgid "Minutes"
+msgstr ""
+
+msgctxt "predictiveAnalytics|"
+msgid "Hours"
+msgstr ""
+
+msgctxt "predictiveAnalytics|"
+msgid "Days"
+msgstr ""
+
+msgctxt "predictiveAnalytics|"
+msgid "Weeks"
+msgstr ""
+
+msgctxt "predictiveAnalytics|"
+msgid "Months"
+msgstr ""
+
+msgctxt "predictiveAnalytics|"
+msgid "Years"
+msgstr ""

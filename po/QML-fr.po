@@ -1,17 +1,11 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-05-19 20:46+0000\n"
-"Last-Translator: robachowyk <kaya.robach@gmail.com>\n"
-"Language-Team: French <https://hosted.weblate.org/projects/jasp/"
-"jasppredictiveanalytics/fr/>\n"
-"Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.6-dev\n"
-"X-Qt-Contexts: true\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Language: fr\n"
+"X-Qt-Contexts: true\n"
 
 msgctxt "multiVarControl|"
 msgid "Control Variables"
@@ -204,9 +198,10 @@ msgctxt "predictiveAnalytics|"
 msgid "Spread points equally"
 msgstr ""
 
+#, fuzzy
 msgctxt "predictiveAnalytics|"
 msgid "Points"
-msgstr ""
+msgstr "Points"
 
 msgctxt "predictiveAnalytics|"
 msgid "Line"
@@ -448,9 +443,10 @@ msgctxt "predictiveAnalytics|"
 msgid "Future Prediction"
 msgstr ""
 
+#, fuzzy
 msgctxt "predictiveAnalytics|"
 msgid "data points"
-msgstr ""
+msgstr "points de données"
 
 msgctxt "predictiveAnalytics|"
 msgid "All data points"
@@ -462,10 +458,6 @@ msgstr ""
 
 msgctxt "predictiveAnalytics|"
 msgid "Impute missing values"
-msgstr ""
-
-msgctxt "Description|"
-msgid "Predictive Analytics (beta)"
 msgstr ""
 
 msgctxt "Description|"
@@ -525,4 +517,8 @@ msgstr ""
 
 msgctxt "predictiveAnalytics|"
 msgid "Years"
+msgstr ""
+
+msgctxt "Description|"
+msgid "Predictive Analytics"
 msgstr ""
