@@ -1,6 +1,6 @@
 {
   "R": {
-    "Version": "4.4.2",
+    "Version": "4.4.1",
     "Repositories": [
       {
         "Name": "CRAN",
@@ -82,7 +82,7 @@
     },
     "Hmisc": {
       "Package": "Hmisc",
-      "Version": "5.2-0",
+      "Version": "5.2-1",
       "Source": "Repository",
       "Requirements": [
         "R",
@@ -426,7 +426,7 @@
     },
     "cpp11": {
       "Package": "cpp11",
-      "Version": "0.5.0",
+      "Version": "0.5.1",
       "Source": "Repository",
       "Requirements": [
         "R"
@@ -689,6 +689,28 @@
       "Requirements": [
         "R",
         "methods"
+      ]
+    },
+    "ggdist": {
+      "Package": "ggdist",
+      "Version": "3.3.2",
+      "Source": "Repository",
+      "Requirements": [
+        "R",
+        "ggplot2",
+        "rlang",
+        "cli",
+        "scales",
+        "grid",
+        "tibble",
+        "vctrs",
+        "withr",
+        "distributional",
+        "numDeriv",
+        "glue",
+        "quadprog",
+        "gtable",
+        "Rcpp"
       ]
     },
     "ggplot2": {
@@ -1661,6 +1683,46 @@
         "rlang",
         "viridisLite"
       ]
+    },
+    "scoringRules": {
+      "Package": "scoringRules",
+      "Version": "1.1.3",
+      "Source": "Repository",
+      "Requirements": [
+        "R",
+        "Rcpp",
+        "methods",
+        "MASS",
+        "knitr",
+        "RcppArmadillo"
+      ]
+    },
+    "scoringutils": {
+      "Package": "scoringutils",
+      "Version": "1.2.2",
+      "Source": "GitHub",
+      "Requirements": [
+        "data.table",
+        "ggdist",
+        "ggplot2",
+        "lifecycle",
+        "rlang",
+        "scoringRules",
+        "kableExtra",
+        "knitr",
+        "magrittr",
+        "rmarkdown",
+        "testthat",
+        "vdiffr",
+        "R",
+        "pkgdown",
+        "preferably"
+      ],
+      "RemoteType": "github",
+      "RemoteHost": "api.github.com",
+      "RemoteUsername": "epiforecasts",
+      "RemoteRepo": "scoringutils",
+      "RemoteSha": "413d4272ba58a723a667d984fd949702800fd818"
     },
     "separationplot": {
       "Package": "separationplot",
