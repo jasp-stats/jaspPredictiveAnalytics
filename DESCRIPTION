@@ -21,9 +21,12 @@ Imports:
   prophet,
   BART,
   EBMAforecast,
-  imputeTS
+  imputeTS,
+  scoringRules,
+  scoringutils
 Suggests:
   testthat
 Remotes:
   jasp-stats/jaspBase,
-  jasp-stats/jaspGraphs
+  jasp-stats/jaspGraphs,
+  epiforecasts/scoringutils@v1.2.2
