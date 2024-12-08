@@ -530,3 +530,47 @@ msgstr "Meses"
 msgctxt "predictiveAnalytics|"
 msgid "Years"
 msgstr "Anos"
+
+msgctxt "Description|"
+msgid "This module offers predictive analytics."
+msgstr "Este módulo ofrece a análise preditiva."
+
+msgctxt "predictiveAnalytics|"
+msgid "Remove zero-variance variables"
+msgstr "Quitar as variables de varianza nula"
+
+msgctxt "predictiveAnalytics|"
+msgid "Remove variables that are stronger correlated than:"
+msgstr "Quitar as variables que teñan unha correlación maior que:"
+
+msgctxt "predictiveAnalytics|"
+msgid "bsts - linear trend model - regression + lag"
+msgstr "MSTEB(BSTS) - Modelo de tendencia linear - Regresión + Retardo"
+
+msgctxt "predictiveAnalytics|"
+msgid "bsts - autoregressive model - regression + lag"
+msgstr "MSTEB(BSTS) - Modelo autorregresivo - Regresión + Retardo"
+
+msgctxt "predictiveAnalytics|"
+msgid "prophet - regression + lag"
+msgstr "Profeta - Regresión + Retardo"
+
+msgctxt "predictiveAnalytics|"
+msgid "xgboost - regression"
+msgstr "XGBoost - Regresión"
+
+msgctxt "predictiveAnalytics|"
+msgid "xgboost - regression + lag"
+msgstr "XGBoost - Regresión + Retardo"
+
+msgctxt "predictiveAnalytics|"
+msgid "bart - stack"
+msgstr "BART - Amoreamento"
+
+msgctxt "predictiveAnalytics|"
+msgid "Prediction horizon"
+msgstr "Horizonte de predición"
+
+msgctxt "predictiveAnalytics|"
+msgid "Advanced Options"
+msgstr "Opcións Avanzadas"
