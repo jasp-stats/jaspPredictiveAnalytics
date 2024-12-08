@@ -1,9 +1,15 @@
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2024-12-08 15:50+0000\n"
+"Last-Translator: ecadrian <ecadrian@hotmail.com>\n"
+"Language-Team: Spanish <https://hosted.weblate.org/projects/jasp/"
+"jasppredictiveanalytics/es/>\n"
+"Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.9-dev\n"
 "X-Language: es\n"
 "X-Qt-Contexts: true\n"
 
@@ -412,7 +418,7 @@ msgstr "Modelos a representar"
 
 msgctxt "predictiveAnalytics|"
 msgid "Ensemble Bayesian Model Averaging"
-msgstr "Modelo Medio Bayesiano Conjunto"
+msgstr "Promediar el Modelo Bayesiano Conjunto"
 
 msgctxt "predictiveAnalytics|"
 msgid "Method"
@@ -472,59 +478,106 @@ msgid ""
 "control concepts. That way one can predict whether a process will exeed a "
 "specified boundary in the future."
 msgstr ""
+"Este módulo ofrece predicciones de series temporales y las combina con "
+"conceptos de control de calidad. De ese modo se puede predecir si un proceso "
+"va a exceder un determinado límite en el futuro."
 
 msgctxt "predictiveAnalytics|"
 msgid "Impute missing values"
-msgstr ""
+msgstr "Imputar valores ausentes"
 
 msgctxt "predictiveAnalytics|"
 msgid "Prediction type"
-msgstr ""
+msgstr "Tipo de predicción"
 
 msgctxt "predictiveAnalytics|"
 msgid "No forecast - verification only"
-msgstr ""
+msgstr "Sin predicción - solo validación"
 
 msgctxt "predictiveAnalytics|"
 msgid "Training indicator"
-msgstr ""
+msgstr "Índice de adiestramiento"
 
 msgctxt "predictiveAnalytics|"
 msgid "Periodical"
-msgstr ""
+msgstr "Periódico"
 
 msgctxt "predictiveAnalytics|"
 msgid "Number of periods"
-msgstr ""
+msgstr "Número de períodos"
 
 msgctxt "predictiveAnalytics|"
 msgid "Unit"
-msgstr ""
+msgstr "Unidade"
 
 msgctxt "predictiveAnalytics|"
 msgid "Seconds"
-msgstr ""
+msgstr "Segundos"
 
 msgctxt "predictiveAnalytics|"
 msgid "Minutes"
-msgstr ""
+msgstr "Minutos"
 
 msgctxt "predictiveAnalytics|"
 msgid "Hours"
-msgstr ""
+msgstr "Horas"
 
 msgctxt "predictiveAnalytics|"
 msgid "Days"
-msgstr ""
+msgstr "Días"
 
 msgctxt "predictiveAnalytics|"
 msgid "Weeks"
-msgstr ""
+msgstr "Semanas"
 
 msgctxt "predictiveAnalytics|"
 msgid "Months"
-msgstr ""
+msgstr "Meses"
 
 msgctxt "predictiveAnalytics|"
 msgid "Years"
-msgstr ""
+msgstr "Años"
+
+msgctxt "Description|"
+msgid "This module offers predictive analytics."
+msgstr "Este módulo ofrece el análisis predictivo."
+
+msgctxt "predictiveAnalytics|"
+msgid "Remove zero-variance variables"
+msgstr "Quitar las variables de varianza nula"
+
+msgctxt "predictiveAnalytics|"
+msgid "Remove variables that are stronger correlated than:"
+msgstr "Quitar las variables que tengan una correlación mayor que:"
+
+msgctxt "predictiveAnalytics|"
+msgid "bsts - linear trend model - regression + lag"
+msgstr "MSTEB(BSTS) - Modelo de tendencia lineal - Regresión + Retardo"
+
+msgctxt "predictiveAnalytics|"
+msgid "bsts - autoregressive model - regression + lag"
+msgstr "MSTEB(BSTS) - Modelo autorregresivo - Regresión + Retardo"
+
+msgctxt "predictiveAnalytics|"
+msgid "prophet - regression + lag"
+msgstr "Profeta - Regresión + Retardo"
+
+msgctxt "predictiveAnalytics|"
+msgid "xgboost - regression"
+msgstr "XGBoost - Regresión"
+
+msgctxt "predictiveAnalytics|"
+msgid "xgboost - regression + lag"
+msgstr "XGBoost - Regresión + Retardo"
+
+msgctxt "predictiveAnalytics|"
+msgid "bart - stack"
+msgstr "BART - Apilamiento"
+
+msgctxt "predictiveAnalytics|"
+msgid "Prediction horizon"
+msgstr "Horizonte de predicción"
+
+msgctxt "predictiveAnalytics|"
+msgid "Advanced Options"
+msgstr "Opciones Avanzadas"
