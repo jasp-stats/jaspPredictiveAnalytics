@@ -1,7 +1,7 @@
-import QtQuick 2.11
-import QtQuick.Layouts 1.3
-import JASP.Controls 1.0
-import JASP.Widgets 1.0
+import QtQuick
+import QtQuick.Layouts
+import JASP.Controls
+
 
 Form
 {
