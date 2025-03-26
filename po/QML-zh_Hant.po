@@ -136,7 +136,7 @@ msgstr ""
 
 msgctxt "predictiveAnalytics|"
 msgid "Covariates"
-msgstr ""
+msgstr "共變量"
 
 msgctxt "predictiveAnalytics|"
 msgid "Covariates to be used in the prediction model. (optional)"
@@ -160,7 +160,7 @@ msgstr ""
 
 msgctxt "predictiveAnalytics|"
 msgid "Time Series Descriptives"
-msgstr ""
+msgstr "時間序列描述性統計"
 
 msgctxt "predictiveAnalytics|"
 msgid "Error Bound Selection Method"
