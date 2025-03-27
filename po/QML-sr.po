@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2025-03-26 01:12+0000\n"
+"PO-Revision-Date: 2025-03-28 12:20+0000\n"
 "Last-Translator: Marko Bojović <bojovicmarko@outlook.com>\n"
 "Language-Team: Serbian <https://hosted.weblate.org/projects/jasp/"
 "jasppredictiveanalytics/sr/>\n"
@@ -15,7 +15,7 @@ msgstr ""
 
 msgctxt "multiVarControl|"
 msgid "Control Variables"
-msgstr ""
+msgstr "Контролне варијабле"
 
 msgctxt "multiVarControl|"
 msgid "Only include previous"
@@ -258,7 +258,7 @@ msgstr ""
 
 msgctxt "predictiveAnalytics|"
 msgid "Partial autocorrelation function"
-msgstr ""
+msgstr "Функција парцијалне аутокорелације"
 
 msgctxt "predictiveAnalytics|"
 msgid "Feature Engineering"
