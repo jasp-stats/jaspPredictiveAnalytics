@@ -229,7 +229,7 @@ msgstr ""
 
 msgctxt "predictiveAnalytics|"
 msgid "Diagnostics"
-msgstr ""
+msgstr "Диагностика"
 
 msgctxt "predictiveAnalytics|"
 msgid "Tables"
