@@ -158,7 +158,7 @@
     },
     "RcppArmadillo": {
       "Package": "RcppArmadillo",
-      "Version": "14.4.1-1",
+      "Version": "14.4.2-1",
       "Source": "Repository",
       "Requirements": [
         "R",
@@ -353,7 +353,7 @@
     },
     "cli": {
       "Package": "cli",
-      "Version": "3.6.4",
+      "Version": "3.6.5",
       "Source": "Repository",
       "Requirements": [
         "R",
@@ -665,23 +665,23 @@
     },
     "ggdist": {
       "Package": "ggdist",
-      "Version": "3.3.2",
+      "Version": "3.3.3",
       "Source": "Repository",
       "Requirements": [
         "R",
+        "grid",
         "ggplot2",
+        "scales",
         "rlang",
         "cli",
-        "scales",
-        "grid",
         "tibble",
         "vctrs",
         "withr",
+        "glue",
+        "gtable",
         "distributional",
         "numDeriv",
-        "glue",
         "quadprog",
-        "gtable",
         "Rcpp"
       ]
     },
@@ -894,7 +894,7 @@
     },
     "jaspBase": {
       "Package": "jaspBase",
-      "Version": "0.19.2",
+      "Version": "0.20.0",
       "Source": "GitHub",
       "Requirements": [
         "cli",
@@ -921,11 +921,11 @@
       "RemoteHost": "api.github.com",
       "RemoteUsername": "jasp-stats",
       "RemoteRepo": "jaspBase",
-      "RemoteSha": "d3c6d19feaa94dcd5c636345adb76a9f2e8bdac1"
+      "RemoteSha": "82b4b3fd094ac3b43e4c92bc6857da7efb7530d1"
     },
     "jaspGraphs": {
       "Package": "jaspGraphs",
-      "Version": "0.19.2",
+      "Version": "0.20.0",
       "Source": "GitHub",
       "Requirements": [
         "testthat",
@@ -944,7 +944,7 @@
       "RemoteHost": "api.github.com",
       "RemoteUsername": "jasp-stats",
       "RemoteRepo": "jaspGraphs",
-      "RemoteSha": "cb357cc60fa30e106a87d3d99f9fe31312010f7e"
+      "RemoteSha": "78cc4121563962922e48513d1f27e10510263e8a"
     },
     "jpeg": {
       "Package": "jpeg",
@@ -1120,15 +1120,6 @@
       "Source": "Repository",
       "Requirements": [
         "tools"
-      ]
-    },
-    "munsell": {
-      "Package": "munsell",
-      "Version": "0.5.1",
-      "Source": "Repository",
-      "Requirements": [
-        "colorspace",
-        "methods"
       ]
     },
     "nlme": {
@@ -1504,7 +1495,7 @@
     },
     "scales": {
       "Package": "scales",
-      "Version": "1.3.0",
+      "Version": "1.4.0",
       "Source": "Repository",
       "Requirements": [
         "R",
@@ -1513,7 +1504,6 @@
         "glue",
         "labeling",
         "lifecycle",
-        "munsell",
         "R6",
         "RColorBrewer",
         "rlang",
@@ -1756,7 +1746,7 @@
     },
     "tinytex": {
       "Package": "tinytex",
-      "Version": "0.56",
+      "Version": "0.57",
       "Source": "Repository",
       "Requirements": [
         "xfun"
