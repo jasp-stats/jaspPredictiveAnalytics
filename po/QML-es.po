@@ -172,7 +172,7 @@ msgstr ""
 
 msgctxt "predictiveAnalytics|"
 msgid "Time Series Descriptives"
-msgstr "Descriptivos de la Serie Temporal"
+msgstr "Descriptivos de Series Temporales"
 
 msgctxt "predictiveAnalytics|"
 msgid "Error Bound Selection Method"
@@ -188,7 +188,7 @@ msgstr "Media recortada"
 
 msgctxt "predictiveAnalytics|"
 msgid "Percent"
-msgstr "Por ciento"
+msgstr "Porcentaje"
 
 msgctxt "predictiveAnalytics|"
 msgid "Custom period"

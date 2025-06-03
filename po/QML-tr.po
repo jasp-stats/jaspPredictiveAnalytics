@@ -139,7 +139,7 @@ msgstr ""
 
 msgctxt "predictiveAnalytics|"
 msgid "Covariates"
-msgstr "Ortak değişkenler"
+msgstr "Ortak Değişkenler"
 
 msgctxt "predictiveAnalytics|"
 msgid "Covariates to be used in the prediction model. (optional)"

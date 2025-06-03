@@ -187,5 +187,37 @@ msgid ""
 "probability threshold. The highest out-of-bound probability is %.2f%%"
 msgstr ""
 
+msgid ""
+"<p style=\"color:tomato;\"><b>This is a warning!</b></p>\n"
+"                           Error proportion limit of %1$.2f is crossed for "
+"the first time at data point %2$i in the estimation period. At this point on "
+"average %3$.2f data points are estimates to be out of control with an lower "
+"limit of %4$.2f and an upper limit of %5$.2f </p>"
+msgstr ""
+
+#, fuzzy
+msgid ""
+"<p \">No warning. The limit of %1$.2f is not crossed during the estimation "
+"period.</p>"
+msgstr ""
+"<p>Brak ostrzeżenia. Limit %#.2f nie został przekroczony w trakcie "
+"wykonywania oszacowania.</p>"
+
+msgid ""
+"<p style=\"color:tomato;\"><b>This is a warning!</b></p>\n"
+"                           Error proportion limit of %1$.2f is crossed for "
+"the first time in %2$i data points in the prediction period. At this point "
+"on average %3$.2f data points will be out of control with an lower limit of "
+"%4$.2f and an upper limit of %5$.2f </p>"
+msgstr ""
+
+#, fuzzy
+msgid ""
+"<p \">No warning. The limit of %1$.2f is not crossed during the prediction "
+"period.</p>"
+msgstr ""
+"<p>Brak ostrzeżenia. Limit %#.2f nie został przekroczony w trakcie "
+"wykonywania przewidywania.</p>"
+
 #~ msgid "percent."
 #~ msgstr "procent."
