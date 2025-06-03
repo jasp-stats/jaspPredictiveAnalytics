@@ -402,13 +402,13 @@ multiVarControl <- function(jaspResults, dataset, options) {
     text = ifelse(any(limitReached) & options$estimatedLimit > 0,
                   gettextf('
                            <p style="color:tomato;"><b>This is a warning!</b></p>
-                           Error proportion limit of %#.2f is crossed for the first time at data point %i in the estimation period. At this point on average %#.2f data points are estimates to be out of control with an lower limit of %#.2f and an upper limit of %#.2f </p>
+                           Error proportion limit of %1$.2f is crossed for the first time at data point %2$i in the estimation period. At this point on average %3$.2f data points are estimates to be out of control with an lower limit of %4$.2f and an upper limit of %5$.2f </p>
                            ',options$estimatedLimit,
                            binomialSummary$time[which(limitReached)[1]],
                            binomialSummary$number[which(limitReached)[1]],
                            binomialSummary$lowerNumber[which(limitReached)[1]],
                            binomialSummary$higherNumber[which(limitReached)[1]]),
-                  gettextf('<p ">No warning. The limit of %#.2f is not crossed during the estimation period.</p>',options$estimatedLimit)
+                  gettextf('<p ">No warning. The limit of %1$.2f is not crossed during the estimation period.</p>',options$estimatedLimit)
     ),position = 3
   )
 
@@ -457,13 +457,13 @@ multiVarControl <- function(jaspResults, dataset, options) {
     text = ifelse(any(predLimitReached) & options$predictionLimit > 0,
                   gettextf('
                            <p style="color:tomato;"><b>This is a warning!</b></p>
-                           Error proportion limit of %#.2f is crossed for the first time in %i data points in the prediction period. At this point on average %#.2f data points will be out of control with an lower limit of %#.2f and an upper limit of %#.2f </p>
+                           Error proportion limit of %1$.2f is crossed for the first time in %2$i data points in the prediction period. At this point on average %3$.2f data points will be out of control with an lower limit of %4$.2f and an upper limit of %5$.2f </p>
                            ',options$predictionLimit,
                            which(predLimitReached)[1],
                            futureSummary$number[which(predLimitReached)[1]],
                            futureSummary$lowerNumber[which(predLimitReached)[1]],
                            futureSummary$higherNumber[which(predLimitReached)[1]]),
-                  gettextf('<p ">No warning. The limit of %#.2f is not crossed during the prediction period.</p>',options$predictionLimit)
+                  gettextf('<p ">No warning. The limit of %1$.2f is not crossed during the prediction period.</p>',options$predictionLimit)
                   ),position = 5
     )
 
