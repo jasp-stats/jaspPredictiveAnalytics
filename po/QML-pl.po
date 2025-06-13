@@ -462,7 +462,7 @@ msgstr ""
 
 msgctxt "predictiveAnalytics|"
 msgid "Impute missing values"
-msgstr ""
+msgstr "Wypełnij braki danych"
 
 msgctxt "Description|"
 msgid ""
@@ -493,23 +493,23 @@ msgstr ""
 
 msgctxt "predictiveAnalytics|"
 msgid "Unit"
-msgstr ""
+msgstr "Jednostka"
 
 msgctxt "predictiveAnalytics|"
 msgid "Seconds"
-msgstr ""
+msgstr "Sekundy"
 
 msgctxt "predictiveAnalytics|"
 msgid "Minutes"
-msgstr ""
+msgstr "Minuty"
 
 msgctxt "predictiveAnalytics|"
 msgid "Hours"
-msgstr ""
+msgstr "Godziny"
 
 msgctxt "predictiveAnalytics|"
 msgid "Days"
-msgstr ""
+msgstr "Dni"
 
 msgctxt "predictiveAnalytics|"
 msgid "Weeks"
