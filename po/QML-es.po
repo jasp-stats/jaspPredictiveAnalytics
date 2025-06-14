@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2025-05-03 14:13+0000\n"
+"PO-Revision-Date: 2025-06-15 21:01+0000\n"
 "Last-Translator: ecadrian <ecadrian@hotmail.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/jasp/"
 "jasppredictiveanalytics/es/>\n"
@@ -178,7 +178,7 @@ msgstr ""
 
 msgctxt "predictiveAnalytics|"
 msgid "Time Series Descriptives"
-msgstr "Descriptivos de Series Temporales"
+msgstr "Descriptivos de Serie Temporal"
 
 msgctxt "predictiveAnalytics|"
 msgid "Error Bound Selection Method"
