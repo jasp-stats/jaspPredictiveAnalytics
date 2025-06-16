@@ -29,7 +29,7 @@ msgid ""
 "<p \">No warning. The limit of %1$.2f is not crossed during the estimation "
 "period.</p>"
 msgstr ""
-"<p \"> எச்சரிக்கை இல்லை. %#1$.2f இன் வரம்பு மதிப்பீட்டு காலத்தில் கடக்கப்படவில்லை. </p>"
+"<p \"> எச்சரிக்கை இல்லை. %1$.2f இன் வரம்பு மதிப்பீட்டு காலத்தில் கடக்கப்படவில்லை. </p>"
 
 #, fuzzy
 msgid ""
@@ -223,7 +223,7 @@ msgid ""
 "threshold for the first time at time point: %1s"
 msgstr ""
 "எச்சரிக்கை! இந்த செயல்முறை முதல் முறையாக நேர புள்ளியில் கட்டுப்பாட்டுக்கு வெளியே "
-"நிகழ்தகவு வரம்பைக் கடக்கும் என்று கணிக்கப்பட்டுள்ளது: %1S"
+"நிகழ்தகவு வரம்பைக் கடக்கும் என்று கணிக்கப்பட்டுள்ளது: %1s"
 
 msgid ""
 "No warning. The process is not predicted to cross the out-of-control "
