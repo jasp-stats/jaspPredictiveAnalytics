@@ -172,7 +172,7 @@ msgstr ""
 
 msgctxt "predictiveAnalytics|"
 msgid "Time Series Descriptives"
-msgstr "Descriptivos de Series Temporales"
+msgstr "Descriptivos de Serie Temporal"
 
 msgctxt "predictiveAnalytics|"
 msgid "Error Bound Selection Method"

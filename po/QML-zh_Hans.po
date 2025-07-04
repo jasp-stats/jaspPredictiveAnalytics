@@ -332,11 +332,11 @@ msgstr "bsts - 自回归模型 - 回归"
 
 msgctxt "predictiveAnalytics|"
 msgid "prophet"
-msgstr "先知"
+msgstr "预测"
 
 msgctxt "predictiveAnalytics|"
 msgid "prophet - regression"
-msgstr "先知 - 回归"
+msgstr "预测 - 回归"
 
 msgctxt "predictiveAnalytics|"
 msgid "bart - regression"
