@@ -1086,9 +1086,9 @@ lagit <- function(a,k) {
 
 
 
-  shortNames <- modNames[selectedModels]
 
-  res <- lapply(shortNames, function(x){
+
+  res <- lapply(selectedModels, function(x){
     names(selectedModels) <- selectedModels
     model <- gsub("Lag|Reg","",x)
 
@@ -1107,6 +1107,8 @@ lagit <- function(a,k) {
 
     return(list(model = model,modelFormula = modelFormula,modelName = names(modNames)[modNames==x]))
   })
+  names(res) <- names(selectedModels)
+  return(res)
 }
 
 
@@ -1926,16 +1928,16 @@ lagit <- function(a,k) {
 
 
     colnames(dataOld)[1] <- 'mean'
-    dataOld <- tail(dataOld,500)
+    #dataOld <- tail(dataOld,500)
     predictionsCombined <- rbind(dataOld,predictionsCombined)
 
     modelList <- .createModelListHelper(dataEng,options$selectedModels)
 
 
-    modelNames <-  paste0(sapply(modelList,'[', "model"),1:length(modelList))
-    names(modelNames) <- names(modelList)
+    modelIds <-  paste0(sapply(modelList,'[', "model"),1:length(modelList))
 
-    selectedModPlot <- modelNames[names(modelNames) ==options$"selectedFuturePredictionModel"]
+
+    selectedModPlot <- modelIds[sapply(modelList,'[', "model") == options$"selectedFuturePredictionModel"]
     if("BMA" %in% unique(predictionsCombined$model) & options$"selectedFuturePredictionModel" == "BMA")
       selectedModPlot <- "BMA"
 
