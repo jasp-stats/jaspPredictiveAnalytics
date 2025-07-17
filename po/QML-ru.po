@@ -10,7 +10,7 @@ msgstr ""
 
 msgctxt "multiVarControl|"
 msgid "Control Variables"
-msgstr ""
+msgstr "Контроль переменных"
 
 msgctxt "multiVarControl|"
 msgid "Only include previous"
