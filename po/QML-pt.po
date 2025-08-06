@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2025-08-06 02:02+0000\n"
+"PO-Revision-Date: 2025-08-06 07:43+0000\n"
 "Last-Translator: Wendel Paulo Silvestre <wpsilvestre@ucs.br>\n"
 "Language-Team: Portuguese <https://hosted.weblate.org/projects/jasp/"
 "jasppredictiveanalytics/pt/>\n"
@@ -51,39 +51,39 @@ msgstr "Ambos"
 
 msgctxt "multiVarControl|"
 msgid "Add jitter"
-msgstr ""
+msgstr "Adicionar jitter"
 
 msgctxt "multiVarControl|"
 msgid "Out-of-bound metric"
-msgstr ""
+msgstr "Métrica fora dos limites"
 
 msgctxt "multiVarControl|"
 msgid "Number"
-msgstr ""
+msgstr "Número"
 
 msgctxt "multiVarControl|"
 msgid "Proportion"
-msgstr ""
+msgstr "Proporção"
 
 msgctxt "multiVarControl|"
 msgid "Proportion limits for reporting"
-msgstr ""
+msgstr "Limites de proporção para relatórios"
 
 msgctxt "multiVarControl|"
 msgid "Estimation limit"
-msgstr ""
+msgstr "Limite de estimativa"
 
 msgctxt "multiVarControl|"
 msgid "Prediction limit"
-msgstr ""
+msgstr "Limite de predição"
 
 msgctxt "multiVarControl|"
 msgid "Proportion Estimation"
-msgstr ""
+msgstr "Estimativa de Proporção"
 
 msgctxt "multiVarControl|"
 msgid "Summarise after every"
-msgstr ""
+msgstr "Resumir após cada"
 
 msgctxt "multiVarControl|"
 msgid "data points"
