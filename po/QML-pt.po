@@ -204,17 +204,20 @@ msgctxt "predictiveAnalytics|"
 msgid "Spread points equally"
 msgstr ""
 
+#, fuzzy
 msgctxt "predictiveAnalytics|"
 msgid "Points"
-msgstr ""
+msgstr "Pontos"
 
+#, fuzzy
 msgctxt "predictiveAnalytics|"
 msgid "Line"
-msgstr ""
+msgstr "Linha"
 
+#, fuzzy
 msgctxt "predictiveAnalytics|"
 msgid "Both"
-msgstr ""
+msgstr "Ambos"
 
 msgctxt "predictiveAnalytics|"
 msgid "All data"
