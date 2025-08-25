@@ -84,7 +84,6 @@ msgctxt "multiVarControl|"
 msgid "Summarise after every"
 msgstr ""
 
-#, fuzzy
 msgctxt "multiVarControl|"
 msgid "data points"
 msgstr "punkt danych"

@@ -253,7 +253,6 @@ msgctxt "predictiveAnalytics|"
 msgid "Histogram"
 msgstr "Histogram"
 
-#, fuzzy
 msgctxt "predictiveAnalytics|"
 msgid "Lags"
 msgstr "Gecikmeler"

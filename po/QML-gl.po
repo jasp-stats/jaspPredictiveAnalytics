@@ -179,7 +179,7 @@ msgstr "Método de selección dos límites de erro"
 
 msgctxt "predictiveAnalytics|"
 msgid "σ threshold"
-msgstr "limiar de σ"
+msgstr "Lindeiro de σ"
 
 msgctxt "predictiveAnalytics|"
 msgid "Trimmed mean"

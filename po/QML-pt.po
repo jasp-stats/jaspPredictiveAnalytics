@@ -9,75 +9,75 @@ msgstr ""
 
 msgctxt "multiVarControl|"
 msgid "Control Variables"
-msgstr ""
+msgstr "Variáveis de Controle"
 
 msgctxt "multiVarControl|"
 msgid "Only include previous"
-msgstr ""
+msgstr "Incluir apenas o anterior"
 
 msgctxt "multiVarControl|"
 msgid "Overall control summary table"
-msgstr ""
+msgstr "Tabela de resumo do controle geral"
 
 msgctxt "multiVarControl|"
 msgid "Order table by proportion"
-msgstr ""
+msgstr "Ordenar tabela por proporção"
 
 msgctxt "multiVarControl|"
 msgid "Transpose table"
-msgstr ""
+msgstr "Transpor tabela"
 
 msgctxt "multiVarControl|"
 msgid "Overall control plot"
-msgstr ""
+msgstr "Gráfico de controle geral"
 
 msgctxt "multiVarControl|"
 msgid "Points"
-msgstr ""
+msgstr "Pontos"
 
 msgctxt "multiVarControl|"
 msgid "Line"
-msgstr ""
+msgstr "Linha"
 
 msgctxt "multiVarControl|"
 msgid "Both"
-msgstr ""
+msgstr "Ambos"
 
 msgctxt "multiVarControl|"
 msgid "Add jitter"
-msgstr ""
+msgstr "Adicionar jitter"
 
 msgctxt "multiVarControl|"
 msgid "Out-of-bound metric"
-msgstr ""
+msgstr "Métrica fora dos limites"
 
 msgctxt "multiVarControl|"
 msgid "Number"
-msgstr ""
+msgstr "Número"
 
 msgctxt "multiVarControl|"
 msgid "Proportion"
-msgstr ""
+msgstr "Proporção"
 
 msgctxt "multiVarControl|"
 msgid "Proportion limits for reporting"
-msgstr ""
+msgstr "Limites de proporção para relatórios"
 
 msgctxt "multiVarControl|"
 msgid "Estimation limit"
-msgstr ""
+msgstr "Limite de estimativa"
 
 msgctxt "multiVarControl|"
 msgid "Prediction limit"
-msgstr ""
+msgstr "Limite de predição"
 
 msgctxt "multiVarControl|"
 msgid "Proportion Estimation"
-msgstr ""
+msgstr "Estimativa de Proporção"
 
 msgctxt "multiVarControl|"
 msgid "Summarise after every"
-msgstr ""
+msgstr "Resumir após cada"
 
 msgctxt "multiVarControl|"
 msgid "data points"
@@ -198,17 +198,20 @@ msgctxt "predictiveAnalytics|"
 msgid "Spread points equally"
 msgstr ""
 
+#, fuzzy
 msgctxt "predictiveAnalytics|"
 msgid "Points"
-msgstr ""
+msgstr "Pontos"
 
+#, fuzzy
 msgctxt "predictiveAnalytics|"
 msgid "Line"
-msgstr ""
+msgstr "Linha"
 
+#, fuzzy
 msgctxt "predictiveAnalytics|"
 msgid "Both"
-msgstr ""
+msgstr "Ambos"
 
 msgctxt "predictiveAnalytics|"
 msgid "All data"
