@@ -50,7 +50,7 @@ msgid ""
 "<p \">No warning. The limit of %1$.2f is not crossed during the prediction "
 "period.</p>"
 msgstr ""
-"<p \"> எச்சரிக்கை இல்லை. %#1$.2f இன் வரம்பு மதிப்பீட்டு காலத்தில் கடக்கப்படவில்லை. </p>"
+"<p \"> எச்சரிக்கை இல்லை. %1$.2f இன் வரம்பு மதிப்பீட்டு காலத்தில் கடக்கப்படவில்லை. </p>"
 
 msgid ""
 "'Time' must be in a date-like format (e.g., yyyy-mm-dd hh:mm:ss or yyyy-mm-"
