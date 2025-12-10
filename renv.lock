@@ -102,10 +102,10 @@
       "Version": "7.3-65",
       "Source": "Repository",
       "Requirements": [
-        "graphics",
-        "grDevices",
         "methods",
         "R",
+        "grDevices",
+        "graphics",
         "stats",
         "utils"
       ]
@@ -115,14 +115,14 @@
       "Version": "1.7-4",
       "Source": "Repository",
       "Requirements": [
-        "graphics",
         "grDevices",
+        "graphics",
         "grid",
         "lattice",
-        "methods",
-        "R",
         "stats",
-        "utils"
+        "utils",
+        "R",
+        "methods"
       ]
     },
     "QuickJSR": {
@@ -149,11 +149,10 @@
     },
     "Rcpp": {
       "Package": "Rcpp",
-      "Version": "1.1.0.8.1",
+      "Version": "1.1.0",
       "Source": "Repository",
       "Requirements": [
         "methods",
-        "R",
         "utils"
       ]
     },
@@ -377,9 +376,9 @@
       "Requirements": [
         "graphics",
         "grDevices",
-        "R",
         "stats",
-        "utils"
+        "utils",
+        "R"
       ]
     },
     "coda": {
@@ -619,9 +618,9 @@
       "Source": "Repository",
       "Requirements": [
         "methods",
-        "R",
+        "utils",
         "stats",
-        "utils"
+        "R"
       ]
     },
     "fracdiff": {
@@ -997,12 +996,12 @@
       "Version": "0.22-7",
       "Source": "Repository",
       "Requirements": [
-        "graphics",
-        "grDevices",
         "grid",
-        "R",
+        "grDevices",
+        "graphics",
         "stats",
-        "utils"
+        "utils",
+        "R"
       ]
     },
     "lifecycle": {
@@ -1112,10 +1111,10 @@
       "Source": "Repository",
       "Requirements": [
         "graphics",
-        "lattice",
-        "R",
         "stats",
-        "utils"
+        "utils",
+        "lattice",
+        "R"
       ]
     },
     "nnet": {
@@ -1408,10 +1407,10 @@
       "Version": "4.1.24",
       "Source": "Repository",
       "Requirements": [
-        "graphics",
-        "grDevices",
         "R",
-        "stats"
+        "graphics",
+        "stats",
+        "grDevices"
       ]
     },
     "rstan": {
@@ -1599,10 +1598,10 @@
         "graphics",
         "Matrix",
         "methods",
-        "R",
         "splines",
         "stats",
-        "utils"
+        "utils",
+        "R"
       ]
     },
     "svglite": {
@@ -1852,7 +1851,7 @@
     },
     "yaml": {
       "Package": "yaml",
-      "Version": "2.3.11",
+      "Version": "2.3.12",
       "Source": "Repository",
       "Requirements": []
     },
