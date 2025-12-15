@@ -1,0 +1,187 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: jaspPredictiveAnalytics 0.95.0\n"
+"POT-Creation-Date: 2025-06-20 08:21\n"
+"PO-Revision-Date: 2025-08-26 09:56+0000\n"
+"Last-Translator: Wendel Paulo Silvestre <wpsilvestre@ucs.br>\n"
+"Language-Team: Portuguese <https://hosted.weblate.org/projects/jasp/"
+"jasppredictiveanalytics-r/pt/>\n"
+"Language: pt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 5.13\n"
+
+msgid "Column input is wrong"
+msgstr "A entrada da coluna está errada"
+
+msgid "<p style=\"color:tomato;\"><b>This is a warning!</b></p>\n                           Error proportion limit of %1$.2f is crossed for the first time at data point %2$i in the estimation period. At this point on average %3$.2f data points are estimates to be out of control with an lower limit of %4$.2f and an upper limit of %5$.2f </p>"
+msgstr ""
+"<p style=\"color:tomato;\"><b>Este é um aviso!</b></p>\n"
+"                           O limite de proporção de erro de %1$.2f foi "
+"ultrapassado pela primeira vez no ponto de dados %2$i no período de "
+"estimativa. Neste ponto, em média, %3$.2f pontos de dados são estimados como "
+"fora de controle, com um limite inferior de %4$.2f e um limite superior de "
+"%5$.2f.</p>"
+
+msgid "<p \">No warning. The limit of %1$.2f is not crossed during the estimation period.</p>"
+msgstr ""
+"<p \">Sem aviso. O limite de %1$.2f não foi ultrapassado durante o período "
+"de estimativa.</p>"
+
+msgid "<p style=\"color:tomato;\"><b>This is a warning!</b></p>\n                           Error proportion limit of %1$.2f is crossed for the first time in %2$i data points in the prediction period. At this point on average %3$.2f data points will be out of control with an lower limit of %4$.2f and an upper limit of %5$.2f </p>"
+msgstr ""
+"<p style=\"color:tomato;\"><b>Este é um aviso!</b></p>\n"
+"                           O limite de proporção de erro de %1$.2f foi "
+"ultrapassado pela primeira vez em %2$i pontos de dados no período de "
+"previsão. Neste ponto, em média, %3$.2f pontos de dados estarão fora de "
+"controle, com um limite inferior de %4$.2f e um limite superior de "
+"%5$.2f.</p>"
+
+msgid "<p \">No warning. The limit of %1$.2f is not crossed during the prediction period.</p>"
+msgstr ""
+"<p \">Sem aviso. O limite de %1$.2f não foi ultrapassado durante o período "
+"de previsão.</p>"
+
+msgid "'Time' must be in a date-like format (e.g., yyyy-mm-dd hh:mm:ss or yyyy-mm-dd)"
+msgstr ""
+"'Tempo' deve estar em um formato semelhante a uma data (por exemplo, aaaa-mm-"
+"dd hh:mm:ss ou aaaa-mm-dd)"
+
+msgid "When 'Covariates' or 'Factors' are provided, they also need to be supplied for the future prediction period. Please provide the 'Include in Training' variable where a value of '1' indicates that this period is used for training/verification - and a value of '0' that it is used for prediction. The values for the dependent variable are allowed to be missing for the prediction period. Alternatively, you could remove the covariates and select the specific time period you want to predict under 'Future Prediction' -> 'Periodical'. That way the data is automatically extended into the future based on your settings. \n If you just want to check how well the predictions perform historically you can choose the option 'No forecast - verification only'"
+msgstr ""
+"Quando \"Covariáveis\" ou \"Fatores\" são fornecidos, eles também precisam "
+"ser fornecidos para o período de previsão futuro. Forneça a variável "
+"\"Incluir no Treinamento\", onde o valor \"1\" indica que este período é "
+"usado para treinamento/verificação - e o valor \"0\" indica que é usado para "
+"previsão. Os valores da variável dependente podem estar ausentes para o "
+"período de previsão. Como alternativa, você pode remover as covariáveis e "
+"selecionar o período específico que deseja prever em \"Previsão Futura\" -> "
+"\"Periódico\". Dessa forma, os dados são automaticamente estendidos para o "
+"futuro com base nas suas configurações.\n"
+"Se você deseja apenas verificar o desempenho histórico das previsões, pode "
+"escolher a opção \"Sem previsão - apenas verificação\""
+
+msgid "The 'Include in Training' variable you provided does not consist of an uninterrupted sequence of ones (1) followed by an uninterrupted sequence of zeros (0). \n This is necessary as the module performs forecast verification on historical data to perform out-of-sample predictions for the future. Since time series data is temporally dependent, you cannot randomly allocate the ones and zeros in the 'Include in Training' variable. \n Please provide an alternative 'Include in Training' variable or only perform forecast verification/periodical prediction."
+msgstr ""
+"A variável \"Incluir no Treinamento\" que você forneceu não consiste em uma "
+"sequência ininterrupta de uns (1) seguida por uma sequência ininterrupta de "
+"zeros (0).\n"
+"Isso é necessário, pois o módulo realiza a verificação de previsões em dados "
+"históricos para realizar previsões fora da amostra para o futuro. Como os "
+"dados de séries temporais são temporalmente dependentes, você não pode "
+"alocar aleatoriamente os uns e zeros na variável \"Incluir no Treinamento\"."
+"\n"
+"Forneça uma variável alternativa \"Incluir no Treinamento\" ou realize "
+"apenas a verificação de previsões/previsões periódicas."
+
+msgid "Basic control plot"
+msgstr "Gráfico de controle básico"
+
+msgid "Autocorrelation Function Plots"
+msgstr "Gráficos de Função de Autocorrelação"
+
+msgid "Histogram Plot"
+msgstr "Gráfico de Histograma"
+
+msgid "Mean"
+msgstr "Média"
+
+msgid "SD"
+msgstr "DP"
+
+msgid "Minimum"
+msgstr "Mínimo"
+
+msgid "Maximum"
+msgstr "Máximo"
+
+msgid "Valid"
+msgstr "Válido"
+
+msgid "Percent"
+msgstr "Porcento"
+
+msgid "Average Deviation"
+msgstr "Desvio Médio"
+
+msgid "Too little data available for training! The 'Include in Training' variable determines which observations are used for training/verification (by setting them to one. However the selected data is not enough for the indicated Training and Prediction Window. Please select a 'Include in Training' variable that includes more observations for training or reduce the Training and Prediction Window variables."
+msgstr ""
+"Poucos dados disponíveis para treinamento! A variável "
+"\"Incluir no Treinamento\" determina quais observações serão usadas para "
+"treinamento/verificação (definindo-as como 1). No entanto, os dados "
+"selecionados não são suficientes para a Janela de Treinamento e Predição "
+"indicada. Selecione uma variável \"Incluir no Treinamento\" que inclua mais "
+"observações para treinamento ou reduza as variáveis da Janela de Treinamento "
+"e Predição."
+
+msgid "The length of the training window is shorter than the number of lags selected in the 'Feature Engineering' section. This makes it impossible to compute all the values of the lagged dependent variable as there is too little data for training. Either increase the training window size or reduce the number of lags."
+msgstr ""
+"O comprimento da janela de treinamento é menor que o número de defasagens "
+"selecionado na seção \"Engenharia de Recursos\". Isso impossibilita o "
+"cálculo de todos os valores da variável dependente defasada, pois há poucos "
+"dados para o treinamento. Aumente o tamanho da janela de treinamento ou "
+"reduza o número de defasagens."
+
+msgid "Running models"
+msgstr "Modelos de execução"
+
+msgid "Attempted to fit prediction model %s, but this model requires that the variance of the dependent variable is larger than zero. Either increase the training window or choose a different prediction model."
+msgstr ""
+"Tentou-se ajustar o modelo de previsão %s, mas este modelo requer que a "
+"variância da variável dependente seja maior que zero. Aumente a janela de "
+"treinamento ou escolha um modelo de previsão diferente."
+
+msgid "CRPS"
+msgstr "CRPS"
+
+msgid "DSS"
+msgstr "DSS"
+
+msgid "Log score"
+msgstr "Pontuação Log"
+
+msgid "Coverage"
+msgstr "Cobertura"
+
+msgid "Bias"
+msgstr "Viés"
+
+msgid "PIT"
+msgstr "PIT"
+
+msgid "MAE"
+msgstr "MAE"
+
+msgid "RMSE"
+msgstr "RMSE"
+
+msgid "R%s"
+msgstr "R%s"
+
+msgid "Cannot train models for future prediction. The data used for training contains only missing values or has a variance of zero, making prediction impossible. Either provide better data or change the training window for future prediction."
+msgstr ""
+"Não é possível treinar modelos para previsão futura. Os dados usados para o "
+"treinamento contêm apenas valores ausentes ou têm variância zero, "
+"impossibilitando a previsão. Forneça dados melhores ou altere a janela de "
+"treinamento para previsão futura."
+
+msgid "Training models for future prediction"
+msgstr "Modelos de treinamento para previsão futura"
+
+msgid "You extended the time series via periodical prediction. Please make sure that the time series is indeed periodic and matches the number of periods and units of the provided training data."
+msgstr ""
+"Você estendeu a série temporal por meio de previsão periódica. Certifique-se "
+"de que a série temporal seja realmente periódica e corresponda ao número de "
+"períodos e unidades dos dados de treinamento fornecidos."
+
+msgid "Warning! The process is predicted to cross the out-of-control probability threshold for the first time at time point: %1s"
+msgstr ""
+"Aviso! Prevê-se que o processo ultrapasse o limite de probabilidade fora de "
+"controle pela primeira vez no ponto de tempo: %1s"
+
+msgid "No warning. The process is not predicted to cross the out-of-control probability threshold. The highest out-of-bound probability is %.2f%%"
+msgstr ""
+"Sem aviso. Não se prevê que o processo ultrapasse o limite de probabilidade "
+"fora de controle. A maior probabilidade fora de controle é de %.2f%%"
