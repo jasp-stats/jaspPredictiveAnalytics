@@ -81,51 +81,51 @@ msgstr "Resumir após cada"
 
 msgctxt "multiVarControl|"
 msgid "data points"
-msgstr ""
+msgstr "pontos de dados"
 
 msgctxt "multiVarControl|"
 msgid "MCMC draws"
-msgstr ""
+msgstr "Extrações MCMC"
 
 msgctxt "multiVarControl|"
 msgid "Multivariate binary control plot"
-msgstr ""
+msgstr "Gráfico de controle binário multivariado"
 
 msgctxt "multiVarControl|"
 msgid "Prediction"
-msgstr ""
+msgstr "Previsão"
 
 msgctxt "multiVarControl|"
 msgid "Prediction horizon"
-msgstr ""
+msgstr "Horizonte de previsão"
 
 msgctxt "multiVarControl|"
 msgid "Forecast plot"
-msgstr ""
+msgstr "Gráfico de previsão"
 
 msgctxt "multiVarControl|"
 msgid "Prediction table"
-msgstr ""
+msgstr "Tabela de previsão"
 
 msgctxt "multiVarControl|"
 msgid "Show predicted number"
-msgstr ""
+msgstr "Mostrar número previsto"
 
 msgctxt "multiVarControl|"
 msgid "Bin predictions every"
-msgstr ""
+msgstr "Jogar as previsões a cada"
 
 msgctxt "predictiveAnalytics|"
 msgid "Dependent Variable"
-msgstr ""
+msgstr "Variável Dependente"
 
 msgctxt "predictiveAnalytics|"
 msgid "Time series variable to be predicted. (needed)"
-msgstr ""
+msgstr "Variável de série temporal a ser prevista. (necessário)"
 
 msgctxt "predictiveAnalytics|"
 msgid "Time"
-msgstr ""
+msgstr "Tempo"
 
 msgctxt "predictiveAnalytics|"
 msgid ""
@@ -133,22 +133,25 @@ msgid ""
 "Can be in the following formats: ['YYYY-MM-DD', 'YYYY/MM/DD', 'YYYY-MM-DD HH:"
 "MM:SS', 'YYYY/MM/DD HH:MM:SS'] (needed)"
 msgstr ""
+"Variável temporal que corresponde ao registro de data e hora de cada "
+"observação. Pode estar nos seguintes formatos: ['AAAA-MM-DD', 'AAAA/MM/DD', "
+"'AAAA-MM-DD HH:MM:SS', 'AAAA/MM/DD HH:MM:SS'] (necessário)"
 
 msgctxt "predictiveAnalytics|"
 msgid "Covariates"
-msgstr ""
+msgstr "Covariáveis"
 
 msgctxt "predictiveAnalytics|"
 msgid "Covariates to be used in the prediction model. (optional)"
-msgstr ""
+msgstr "Covariáveis a serem usadas no modelo de previsão. (opcional)"
 
 msgctxt "predictiveAnalytics|"
 msgid "Factors"
-msgstr ""
+msgstr "Fatores"
 
 msgctxt "predictiveAnalytics|"
 msgid "Include in Training"
-msgstr ""
+msgstr "Incluir no Treinamento"
 
 msgctxt "predictiveAnalytics|"
 msgid ""
@@ -157,309 +160,310 @@ msgid ""
 "(= 0). This variable is necessary for making predictions when covariates and "
 "factors are supplied"
 msgstr ""
+"Variável lógica (apenas 0 ou 1) que indica quais casos devem ser usados para "
+"treinar e verificar os modelos (= 1) e quais casos devem ser previstos (= "
+"0). Esta variável é necessária para fazer previsões quando covariáveis e "
+"fatores são fornecidos"
 
 msgctxt "predictiveAnalytics|"
 msgid "Time Series Descriptives"
-msgstr ""
+msgstr "Descritivo de Séries Temporais"
 
 msgctxt "predictiveAnalytics|"
 msgid "Error Bound Selection Method"
-msgstr ""
+msgstr "Método de Seleção Limitado por Erro"
 
 msgctxt "predictiveAnalytics|"
 msgid "σ threshold"
-msgstr ""
+msgstr "Limiar σ"
 
 msgctxt "predictiveAnalytics|"
 msgid "Trimmed mean"
-msgstr ""
+msgstr "Média aparada"
 
 msgctxt "predictiveAnalytics|"
 msgid "Percent"
-msgstr ""
+msgstr "Porcento"
 
 msgctxt "predictiveAnalytics|"
 msgid "Custom period"
-msgstr ""
+msgstr "Período personalizado"
 
 msgctxt "predictiveAnalytics|"
 msgid "Start"
-msgstr ""
+msgstr "Início"
 
 msgctxt "predictiveAnalytics|"
 msgid "End"
-msgstr ""
+msgstr "Fim"
 
 msgctxt "predictiveAnalytics|"
 msgid "Display control chart"
-msgstr ""
+msgstr "Exibir gráfico de controle"
 
 msgctxt "predictiveAnalytics|"
 msgid "Spread points equally"
-msgstr ""
+msgstr "Distribua os pontos igualmente"
 
-#, fuzzy
 msgctxt "predictiveAnalytics|"
 msgid "Points"
 msgstr "Pontos"
 
-#, fuzzy
 msgctxt "predictiveAnalytics|"
 msgid "Line"
 msgstr "Linha"
 
-#, fuzzy
 msgctxt "predictiveAnalytics|"
 msgid "Both"
 msgstr "Ambos"
 
 msgctxt "predictiveAnalytics|"
 msgid "All data"
-msgstr ""
+msgstr "Todos os dados"
 
 msgctxt "predictiveAnalytics|"
 msgid "Control bounds"
-msgstr ""
+msgstr "Limites de controle"
 
 msgctxt "predictiveAnalytics|"
 msgid "Enable grid"
-msgstr ""
+msgstr "Habilitar grade"
 
 msgctxt "predictiveAnalytics|"
 msgid "Custom plot focus"
-msgstr ""
+msgstr "Foco de gráfico personalizado"
 
 msgctxt "predictiveAnalytics|"
 msgid "Diagnostics"
-msgstr ""
+msgstr "Diagnóstico"
 
 msgctxt "predictiveAnalytics|"
 msgid "Tables"
-msgstr ""
+msgstr "Tabelas"
 
 msgctxt "predictiveAnalytics|"
 msgid "Custom table focus"
-msgstr ""
+msgstr "Foco de tabela personalizada"
 
 msgctxt "predictiveAnalytics|"
 msgid "Plots"
-msgstr ""
+msgstr "Gráficos"
 
 msgctxt "predictiveAnalytics|"
 msgid "Histogram"
-msgstr ""
+msgstr "Histograma"
 
 msgctxt "predictiveAnalytics|"
 msgid "Lags"
-msgstr ""
+msgstr "Atrasos"
 
 msgctxt "predictiveAnalytics|"
 msgid "Partial autocorrelation function"
-msgstr ""
+msgstr "Função de autocorrelação parcial"
 
 msgctxt "predictiveAnalytics|"
 msgid "Feature Engineering"
-msgstr ""
+msgstr "Engenharia de Recursos"
 
 msgctxt "predictiveAnalytics|"
 msgid "Forecast Evaluation"
-msgstr ""
+msgstr "Avaliação da Previsão"
 
 msgctxt "predictiveAnalytics|"
 msgid "Evaluation Plan"
-msgstr ""
+msgstr "Plano de Avaliação"
 
 msgctxt "predictiveAnalytics|"
 msgid "Training window"
-msgstr ""
+msgstr "Janela de treinamento"
 
 msgctxt "predictiveAnalytics|"
 msgid "Prediction window"
-msgstr ""
+msgstr "Janela de previsão"
 
 msgctxt "predictiveAnalytics|"
 msgid "Select slices from:"
-msgstr ""
+msgstr "Selecione fatias de:"
 
 msgctxt "predictiveAnalytics|"
 msgid "Maximum nr. of slices"
-msgstr ""
+msgstr "N° máximo de fatias"
 
 msgctxt "predictiveAnalytics|"
 msgid "Cumulative training"
-msgstr ""
+msgstr "Treinamento cumulativo"
 
 msgctxt "predictiveAnalytics|"
 msgid "Show evaluation plan"
-msgstr ""
+msgstr "Mostrar plano de avaliação"
 
 msgctxt "predictiveAnalytics|"
 msgid "Model Choice"
-msgstr ""
+msgstr "Escolha do Modelo"
 
 msgctxt "predictiveAnalytics|"
 msgid "linear regression - y ~ time"
-msgstr ""
+msgstr "regressão linear - y ~ tempo"
 
 msgctxt "predictiveAnalytics|"
 msgid "linear regression - regression"
-msgstr ""
+msgstr "regressão linear - regressão"
 
 msgctxt "predictiveAnalytics|"
 msgid "linear regression - regression + lag"
-msgstr ""
+msgstr "linear regressão - regressão + atraso"
 
 msgctxt "predictiveAnalytics|"
 msgid "bsts - linear trend model"
-msgstr ""
+msgstr "bsts - modelo de tendência linear"
 
 msgctxt "predictiveAnalytics|"
 msgid "bsts - linear trend model - regression"
-msgstr ""
+msgstr "bsts - modelo de tendência linear - regressão"
 
 msgctxt "predictiveAnalytics|"
 msgid "bsts - autoregressive model"
-msgstr ""
+msgstr "bsts - modelo autorregressivo"
 
 msgctxt "predictiveAnalytics|"
 msgid "bsts - autoregressive model - regression"
-msgstr ""
+msgstr "bsts - modelo autorregressivo - regressão"
 
 msgctxt "predictiveAnalytics|"
 msgid "prophet"
-msgstr ""
+msgstr "prophet"
 
 msgctxt "predictiveAnalytics|"
 msgid "prophet - regression"
-msgstr ""
+msgstr "prophet - regressão"
 
 msgctxt "predictiveAnalytics|"
 msgid "bart - regression"
-msgstr ""
+msgstr "bart - regressão"
 
 msgctxt "predictiveAnalytics|"
 msgid "bart - regression + lag"
-msgstr ""
+msgstr "bart - regressão + atraso"
 
 msgctxt "predictiveAnalytics|"
 msgid "Evaluation Metrics"
-msgstr ""
+msgstr "Métricas de Avaliação"
 
 msgctxt "predictiveAnalytics|"
 msgid "Probabilistic"
-msgstr ""
+msgstr "Probabilístico"
 
 msgctxt "predictiveAnalytics|"
 msgid "Continuous ranked probability score"
-msgstr ""
+msgstr "Pontuação de probabilidade classificada contínua"
 
 msgctxt "predictiveAnalytics|"
 msgid "Dawid–Sebastiani score"
-msgstr ""
+msgstr "Pontuação Dawid–Sebastiani"
 
 msgctxt "predictiveAnalytics|"
 msgid "Log score"
-msgstr ""
+msgstr "Pontuação log"
 
 msgctxt "predictiveAnalytics|"
 msgid "Coverage"
-msgstr ""
+msgstr "Cobertura"
 
 msgctxt "predictiveAnalytics|"
 msgid "Bias"
-msgstr ""
+msgstr "Viés"
 
 msgctxt "predictiveAnalytics|"
 msgid "Probability integral transform"
-msgstr ""
+msgstr "Transformada integral de probabilidade"
 
 msgctxt "predictiveAnalytics|"
 msgid "Deterministic"
-msgstr ""
+msgstr "Determinístico"
 
 msgctxt "predictiveAnalytics|"
 msgid "Mean absolute error"
-msgstr ""
+msgstr "Erro absoluto médio"
 
 msgctxt "predictiveAnalytics|"
 msgid "Root mean squared error"
-msgstr ""
+msgstr "Raiz do erro quadrático médio"
 
 msgctxt "predictiveAnalytics|"
 msgid "R²"
-msgstr ""
+msgstr "R²"
 
 msgctxt "predictiveAnalytics|"
 msgid "PIT Binned Density Plots"
-msgstr ""
+msgstr "Gráficos de densidade com barras PIT"
 
 msgctxt "predictiveAnalytics|"
 msgid "Prediction Plots"
-msgstr ""
+msgstr "Gráficos de Previsão"
 
 msgctxt "predictiveAnalytics|"
 msgid "Models to plot"
-msgstr ""
+msgstr "Modelos para plotar"
 
 msgctxt "predictiveAnalytics|"
 msgid "Ensemble Bayesian Model Averaging"
-msgstr ""
+msgstr "Média do Modelo Bayesiano Conjunto"
 
 msgctxt "predictiveAnalytics|"
 msgid "Method"
-msgstr ""
+msgstr "Método"
 
 msgctxt "predictiveAnalytics|"
 msgid "Expectation–maximization"
-msgstr ""
+msgstr "Expectativa-maximização"
 
 msgctxt "predictiveAnalytics|"
 msgid "Gibbs sampling"
-msgstr ""
+msgstr "Amostragem de Gibbs"
 
 msgctxt "predictiveAnalytics|"
 msgid "Next test slice"
-msgstr ""
+msgstr "Próxima fatia de teste"
 
 msgctxt "predictiveAnalytics|"
 msgid "Same test slice"
-msgstr ""
+msgstr "Mesma fatia de teste"
 
 msgctxt "predictiveAnalytics|"
 msgid "Last"
-msgstr ""
+msgstr "Último"
 
 msgctxt "predictiveAnalytics|"
 msgid "% of data"
-msgstr ""
+msgstr "% dos dados"
 
 msgctxt "predictiveAnalytics|"
 msgid "Model weights"
-msgstr ""
+msgstr "Ponderações do modelo"
 
 msgctxt "predictiveAnalytics|"
 msgid "Show per slice"
-msgstr ""
+msgstr "Mostrar por fatia"
 
 msgctxt "predictiveAnalytics|"
 msgid "Future Prediction"
-msgstr ""
+msgstr "Previsão Futura"
 
 msgctxt "predictiveAnalytics|"
 msgid "data points"
-msgstr ""
+msgstr "pontos de dados"
 
 msgctxt "predictiveAnalytics|"
 msgid "All data points"
-msgstr ""
+msgstr "Todos os pontos de dados"
 
 msgctxt "predictiveAnalytics|"
 msgid "Skip between training slices"
-msgstr ""
+msgstr "Pular entre fatias de treinamento"
 
 msgctxt "predictiveAnalytics|"
 msgid "Impute missing values"
-msgstr ""
+msgstr "Atribuir valores ausentes"
 
 msgctxt "Description|"
 msgid ""
@@ -467,59 +471,62 @@ msgid ""
 "control concepts. That way one can predict whether a process will exeed a "
 "specified boundary in the future."
 msgstr ""
+"Este módulo oferece previsões de séries temporais e as combina com conceitos "
+"de controle de qualidade. Dessa forma, é possível prever se um processo "
+"excederá um limite especificado no futuro."
 
 msgctxt "predictiveAnalytics|"
 msgid "Prediction type"
-msgstr ""
+msgstr "Tipo de previsão"
 
 msgctxt "predictiveAnalytics|"
 msgid "No forecast - verification only"
-msgstr ""
+msgstr "Sem previsão - apenas verificação"
 
 msgctxt "predictiveAnalytics|"
 msgid "Training indicator"
-msgstr ""
+msgstr "Indicador de treinamento"
 
 msgctxt "predictiveAnalytics|"
 msgid "Periodical"
-msgstr ""
+msgstr "Periódico"
 
 msgctxt "predictiveAnalytics|"
 msgid "Number of periods"
-msgstr ""
+msgstr "Número de períodos"
 
 msgctxt "predictiveAnalytics|"
 msgid "Unit"
-msgstr ""
+msgstr "Unidade"
 
 msgctxt "predictiveAnalytics|"
 msgid "Seconds"
-msgstr ""
+msgstr "Segundos"
 
 msgctxt "predictiveAnalytics|"
 msgid "Minutes"
-msgstr ""
+msgstr "Minutos"
 
 msgctxt "predictiveAnalytics|"
 msgid "Hours"
-msgstr ""
+msgstr "Horas"
 
 msgctxt "predictiveAnalytics|"
 msgid "Days"
-msgstr ""
+msgstr "Dias"
 
 msgctxt "predictiveAnalytics|"
 msgid "Weeks"
-msgstr ""
+msgstr "Semanas"
 
 msgctxt "predictiveAnalytics|"
 msgid "Months"
-msgstr ""
+msgstr "Meses"
 
 msgctxt "predictiveAnalytics|"
 msgid "Years"
-msgstr ""
+msgstr "Anos"
 
 msgctxt "Description|"
 msgid "Predictive Analytics"
-msgstr ""
+msgstr "Análise Preditiva"

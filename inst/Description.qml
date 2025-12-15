@@ -3,18 +3,12 @@ import JASP.Module
 
 Description
 {
-	name		: "jaspPredictiveAnalytics"
 
 	title		: qsTr("Predictive Analytics")
 	description	: qsTr("This module offers time series predictions and combines them with quality control concepts. That way one can predict whether a process will exeed a specified boundary in the future.")
-	version			: "0.95.0"
-
-	author		: "JASP Team"
-	maintainer	: "JASP Team <info@jasp-stats.org>"
-	website		: "https://jasp-stats.org"
-	license		: "GPL (>= 2)"
-	icon: "icon.png"
-
+	icon: 			"icon.png"
+	hasWrappers: 	false
+	
 	Analysis
 	{
 	    title: "Predictive Analytics"
