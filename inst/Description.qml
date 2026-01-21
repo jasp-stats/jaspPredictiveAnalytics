@@ -4,10 +4,11 @@ import JASP.Module
 Description
 {
 
-	title		: qsTr("Predictive Analytics")
-	description	: qsTr("This module offers time series predictions and combines them with quality control concepts. That way one can predict whether a process will exeed a specified boundary in the future.")
+	title: 			qsTr("Predictive Analytics")
+	description: 	qsTr("This module offers time series predictions and combines them with quality control concepts. That way one can predict whether a process will exeed a specified boundary in the future.")
 	icon: 			"icon.png"
-	hasWrappers: 	false
+	hasWrappers:	false
+	preloadData:  	false
 	
 	Analysis
 	{
@@ -23,3 +24,4 @@ Description
 	//	qml: 'multiVarControl.qml'
 	//}
 }
+
