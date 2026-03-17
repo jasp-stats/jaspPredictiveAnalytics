@@ -212,9 +212,10 @@ msgctxt "predictiveAnalytics|"
 msgid "Line"
 msgstr ""
 
+#, fuzzy
 msgctxt "predictiveAnalytics|"
 msgid "Both"
-msgstr ""
+msgstr "Kedua-duanya"
 
 msgctxt "predictiveAnalytics|"
 msgid "All data"
