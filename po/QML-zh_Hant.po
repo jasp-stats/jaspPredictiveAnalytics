@@ -9,19 +9,19 @@ msgstr ""
 
 msgctxt "multiVarControl|"
 msgid "Control Variables"
-msgstr ""
+msgstr "控制變項"
 
 msgctxt "multiVarControl|"
 msgid "Only include previous"
-msgstr ""
+msgstr "僅納入前期"
 
 msgctxt "multiVarControl|"
 msgid "Overall control summary table"
-msgstr ""
+msgstr "整體控制摘要表"
 
 msgctxt "multiVarControl|"
 msgid "Order table by proportion"
-msgstr ""
+msgstr "依比例排序表格"
 
 msgctxt "multiVarControl|"
 msgid "Transpose table"
