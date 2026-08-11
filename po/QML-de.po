@@ -54,7 +54,7 @@ msgstr "Verwacklung hinzufügen"
 
 msgctxt "multiVarControl|"
 msgid "Out-of-bound metric"
-msgstr ""
+msgstr "Metrik für außerhalb der Grenzen"
 
 #, fuzzy
 msgctxt "multiVarControl|"
@@ -122,7 +122,7 @@ msgstr "Vorhergesagte Zahl anzeigen"
 
 msgctxt "multiVarControl|"
 msgid "Bin predictions every"
-msgstr ""
+msgstr "Vorhersagen bündeln alle"
 
 msgctxt "predictiveAnalytics|"
 msgid "Dependent Variable"
@@ -182,7 +182,7 @@ msgstr "Zeitreihen-Deskriptive"
 
 msgctxt "predictiveAnalytics|"
 msgid "Error Bound Selection Method"
-msgstr ""
+msgstr "Methode zur Auswahl der Fehlergrenze"
 
 msgctxt "predictiveAnalytics|"
 msgid "σ threshold"
@@ -234,7 +234,7 @@ msgstr "Alle Daten"
 
 msgctxt "predictiveAnalytics|"
 msgid "Control bounds"
-msgstr ""
+msgstr "Kontrollgrenzen"
 
 msgctxt "predictiveAnalytics|"
 msgid "Enable grid"
@@ -242,7 +242,7 @@ msgstr "Raster aktivieren"
 
 msgctxt "predictiveAnalytics|"
 msgid "Custom plot focus"
-msgstr ""
+msgstr "Benutzerdefinierter Diagramm-Fokus"
 
 msgctxt "predictiveAnalytics|"
 msgid "Diagnostics"
@@ -254,7 +254,7 @@ msgstr "Tabellen"
 
 msgctxt "predictiveAnalytics|"
 msgid "Custom table focus"
-msgstr ""
+msgstr "Benutzerdefinierter Tabellen-Fokus"
 
 msgctxt "predictiveAnalytics|"
 msgid "Plots"
@@ -274,7 +274,7 @@ msgstr "Partielle Autokorrelationsfunktion"
 
 msgctxt "predictiveAnalytics|"
 msgid "Feature Engineering"
-msgstr ""
+msgstr "Feature Engineering"
 
 msgctxt "predictiveAnalytics|"
 msgid "Forecast Evaluation"
@@ -295,11 +295,11 @@ msgstr "Vorhersagefenster"
 
 msgctxt "predictiveAnalytics|"
 msgid "Select slices from:"
-msgstr ""
+msgstr "Abschnitte auswählen von:"
 
 msgctxt "predictiveAnalytics|"
 msgid "Maximum nr. of slices"
-msgstr ""
+msgstr "Maximale Anzahl von Abschnitten"
 
 msgctxt "predictiveAnalytics|"
 msgid "Cumulative training"
@@ -374,7 +374,7 @@ msgstr "Probabilistisch"
 
 msgctxt "predictiveAnalytics|"
 msgid "Continuous ranked probability score"
-msgstr ""
+msgstr "Kontinuierlicher Rang-Wahrscheinlichkeits-Score"
 
 #, fuzzy
 msgctxt "predictiveAnalytics|"
@@ -395,7 +395,7 @@ msgstr "Verzerrung"
 
 msgctxt "predictiveAnalytics|"
 msgid "Probability integral transform"
-msgstr ""
+msgstr "Wahrscheinlichkeits-Integral-Transformation"
 
 msgctxt "predictiveAnalytics|"
 msgid "Deterministic"
@@ -488,6 +488,9 @@ msgid ""
 "control concepts. That way one can predict whether a process will exeed a "
 "specified boundary in the future."
 msgstr ""
+"Dieses Modul bietet Zeitreihenvorhersagen und kombiniert diese mit "
+"Konzepten der Qualitätskontrolle. Auf diese Weise kann vorhergesagt werden, "
+"ob ein Prozess in der Zukunft eine festgelegte Grenze überschreiten wird."
 
 #, fuzzy
 msgctxt "predictiveAnalytics|"
@@ -500,19 +503,19 @@ msgstr "Vorhersagetyp"
 
 msgctxt "predictiveAnalytics|"
 msgid "No forecast - verification only"
-msgstr ""
+msgstr "Keine Prognose - nur Verifikation"
 
 msgctxt "predictiveAnalytics|"
 msgid "Training indicator"
-msgstr ""
+msgstr "Trainingsindikator"
 
 msgctxt "predictiveAnalytics|"
 msgid "Periodical"
-msgstr ""
+msgstr "Periodisch"
 
 msgctxt "predictiveAnalytics|"
 msgid "Number of periods"
-msgstr ""
+msgstr "Anzahl der Perioden"
 
 msgctxt "predictiveAnalytics|"
 msgid "Unit"
