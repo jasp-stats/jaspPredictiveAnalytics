@@ -14,37 +14,37 @@ msgstr ""
 "X-Generator: Weblate 2026.7.dev0\n"
 
 msgid "Column input is wrong"
-msgstr ""
+msgstr "欄位輸入錯誤"
 
 msgid "<p style=\"color:tomato;\"><b>This is a warning!</b></p>\n                           Error proportion limit of %1$.2f is crossed for the first time at data point %2$i in the estimation period. At this point on average %3$.2f data points are estimates to be out of control with an lower limit of %4$.2f and an upper limit of %5$.2f </p>"
-msgstr ""
+msgstr "<p style=\"color:tomato;\"><b>這是警告！</b></p>\n                           在估計期間中最先於資料點 %2$i 處超出誤差比例界限 %1$.2f。此時平均有 %3$.2f 個資料點估計失控，其下限為 %4$.2f，上限為 %5$.2f </p>"
 
 msgid "<p \">No warning. The limit of %1$.2f is not crossed during the estimation period.</p>"
-msgstr ""
+msgstr "<p \">無警告。估計期間內未超出界限 %1$.2f。</p>"
 
 msgid "<p style=\"color:tomato;\"><b>This is a warning!</b></p>\n                           Error proportion limit of %1$.2f is crossed for the first time in %2$i data points in the prediction period. At this point on average %3$.2f data points will be out of control with an lower limit of %4$.2f and an upper limit of %5$.2f </p>"
-msgstr ""
+msgstr "<p style=\"color:tomato;\"><b>這是警告！</b></p>\n                           在預測期間中最先於 %2$i 個資料點內超出誤差比例界限 %1$.2f。此時平均將有 %3$.2f 個資料點失控，其下限為 %4$.2f，上限為 %5$.2f </p>"
 
 msgid "<p \">No warning. The limit of %1$.2f is not crossed during the prediction period.</p>"
-msgstr ""
+msgstr "<p \">無警告。預測期間內未超出界限 %1$.2f。</p>"
 
 msgid "'Time' must be in a date-like format (e.g., yyyy-mm-dd hh:mm:ss or yyyy-mm-dd)"
-msgstr ""
+msgstr "『時間』必須為日期格式（例如 yyyy-mm-dd hh:mm:ss 或 yyyy-mm-dd）"
 
 msgid "When 'Covariates' or 'Factors' are provided, they also need to be supplied for the future prediction period. Please provide the 'Include in Training' variable where a value of '1' indicates that this period is used for training/verification - and a value of '0' that it is used for prediction. The values for the dependent variable are allowed to be missing for the prediction period. Alternatively, you could remove the covariates and select the specific time period you want to predict under 'Future Prediction' -> 'Periodical'. That way the data is automatically extended into the future based on your settings. \n If you just want to check how well the predictions perform historically you can choose the option 'No forecast - verification only'"
-msgstr ""
+msgstr "當提供『Covariates（共變量）』或『Factors（因子）』時，也必須為未來預測期間提供相同的變數。請提供『Include in Training』變數，其中值『1』表示此期間用於訓練/驗證，值『0』表示用於預測。在預測期間允許依變數值為遺漏。或者，您可以移除共變量，並在『Future Prediction』→『Periodical』下選擇要預測的特定時間期間，這樣資料就會依您的設定自動延伸至未來。\n 若您只想檢查過去預測的表現如何，可以選擇『No forecast - verification only』選項。"
 
 msgid "The 'Include in Training' variable you provided does not consist of an uninterrupted sequence of ones (1) followed by an uninterrupted sequence of zeros (0). \n This is necessary as the module performs forecast verification on historical data to perform out-of-sample predictions for the future. Since time series data is temporally dependent, you cannot randomly allocate the ones and zeros in the 'Include in Training' variable. \n Please provide an alternative 'Include in Training' variable or only perform forecast verification/periodical prediction."
-msgstr ""
+msgstr "您提供的『Include in Training』變數並非由不間斷的 1（1）序列後接不間斷的 0（0）序列所組成。\n 這是必要的，因為此模組會對歷史資料進行預測驗證，以對未來進行樣本外預測。由於時間序列資料在時間上具有相依性，您不能隨機分配『Include in Training』變數中的 1 與 0。\n 請提供其他『Include in Training』變數，或僅執行預測驗證/週期性預測。"
 
 msgid "Basic control plot"
-msgstr ""
+msgstr "基本控制圖"
 
 msgid "Autocorrelation Function Plots"
-msgstr ""
+msgstr "自我相關函數圖"
 
 msgid "Histogram Plot"
-msgstr ""
+msgstr "直方圖"
 
 msgid "Mean"
 msgstr "平均數"
@@ -53,70 +53,70 @@ msgid "SD"
 msgstr "標準差"
 
 msgid "Minimum"
-msgstr ""
+msgstr "最小值"
 
 msgid "Maximum"
-msgstr ""
+msgstr "最大值"
 
 msgid "Valid"
-msgstr ""
+msgstr "有效"
 
 msgid "Percent"
-msgstr ""
+msgstr "百分比"
 
 msgid "Average Deviation"
-msgstr ""
+msgstr "平均差異"
 
 msgid "Too little data available for training! The 'Include in Training' variable determines which observations are used for training/verification (by setting them to one. However the selected data is not enough for the indicated Training and Prediction Window. Please select a 'Include in Training' variable that includes more observations for training or reduce the Training and Prediction Window variables."
-msgstr ""
+msgstr "可用的訓練資料太少！『Include in Training』變數決定哪些觀測值用於訓練/驗證（將其設為 1）。然而所選的資料不足以符合指定的訓練與預測視窗。請選擇納入更多訓練觀測值的『Include in Training』變數，或縮小訓練與預測視窗變數。"
 
 msgid "The length of the training window is shorter than the number of lags selected in the 'Feature Engineering' section. This makes it impossible to compute all the values of the lagged dependent variable as there is too little data for training. Either increase the training window size or reduce the number of lags."
-msgstr ""
+msgstr "訓練視窗的長度短於『Feature Engineering』區段中所選的落後期數。由於可用的訓練資料太少，因此無法計算落後依變數的所有值。請增加訓練視窗大小或減少落後期數。"
 
 msgid "Running models"
-msgstr ""
+msgstr "正在執行模型"
 
 msgid "Attempted to fit prediction model %s, but this model requires that the variance of the dependent variable is larger than zero. Either increase the training window or choose a different prediction model."
-msgstr ""
+msgstr "嘗試擬合預測模型 %s，但此模型要求依變數的變異數大於零。請增加訓練視窗或選擇其他預測模型。"
 
 msgid "CRPS"
-msgstr ""
+msgstr "CRPS"
 
 msgid "DSS"
-msgstr ""
+msgstr "DSS"
 
 msgid "Log score"
-msgstr ""
+msgstr "對數分數"
 
 msgid "Coverage"
-msgstr ""
+msgstr "涵蓋率"
 
 msgid "Bias"
-msgstr ""
+msgstr "偏差"
 
 msgid "PIT"
-msgstr ""
+msgstr "PIT"
 
 msgid "MAE"
-msgstr ""
+msgstr "MAE"
 
 msgid "RMSE"
-msgstr ""
+msgstr "RMSE"
 
 msgid "R%s"
-msgstr ""
+msgstr "R%s"
 
 msgid "Cannot train models for future prediction. The data used for training contains only missing values or has a variance of zero, making prediction impossible. Either provide better data or change the training window for future prediction."
-msgstr ""
+msgstr "無法訓練用於未來預測的模型。用於訓練的資料僅包含遺漏值或變異數為零，因而無法進行預測。請提供更好的資料，或變更用於未來預測的訓練視窗。"
 
 msgid "Training models for future prediction"
-msgstr ""
+msgstr "正在訓練用於未來預測的模型"
 
 msgid "You extended the time series via periodical prediction. Please make sure that the time series is indeed periodic and matches the number of periods and units of the provided training data."
-msgstr ""
+msgstr "您已透過週期性預測延伸時間序列。請確保時間序列確實具有週期性，且與所提供的訓練資料期間數與單位相符。"
 
 msgid "Warning! The process is predicted to cross the out-of-control probability threshold for the first time at time point: %1s"
-msgstr ""
+msgstr "警告！製程被預測將在時間點 %1s 首次超出失控機率閾值"
 
 msgid "No warning. The process is not predicted to cross the out-of-control probability threshold. The highest out-of-bound probability is %.2f%%"
-msgstr ""
+msgstr "無警告。製程被預測不會超出失控機率閾值。最高的超出界限機率為 %.2f%%"
