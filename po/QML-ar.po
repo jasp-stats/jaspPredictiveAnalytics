@@ -5,6 +5,17 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Qt-Contexts: true\n"
 
+msgctxt "Description|"
+msgid "Predictive Analytics"
+msgstr ""
+
+msgctxt "Description|"
+msgid ""
+"This module offers time series predictions and combines them with quality "
+"control concepts. That way one can predict whether a process will exeed a "
+"specified boundary in the future."
+msgstr ""
+
 msgctxt "multiVarControl|"
 msgid "Control Variables"
 msgstr ""
@@ -257,6 +268,10 @@ msgid "Feature Engineering"
 msgstr ""
 
 msgctxt "predictiveAnalytics|"
+msgid "Impute missing values"
+msgstr ""
+
+msgctxt "predictiveAnalytics|"
 msgid "Forecast Evaluation"
 msgstr ""
 
@@ -265,11 +280,15 @@ msgid "Evaluation Plan"
 msgstr ""
 
 msgctxt "predictiveAnalytics|"
+msgid "Prediction window"
+msgstr ""
+
+msgctxt "predictiveAnalytics|"
 msgid "Training window"
 msgstr ""
 
 msgctxt "predictiveAnalytics|"
-msgid "Prediction window"
+msgid "Skip between training slices"
 msgstr ""
 
 msgctxt "predictiveAnalytics|"
@@ -297,19 +316,7 @@ msgid "linear regression - y ~ time"
 msgstr ""
 
 msgctxt "predictiveAnalytics|"
-msgid "linear regression - regression"
-msgstr ""
-
-msgctxt "predictiveAnalytics|"
-msgid "linear regression - regression + lag"
-msgstr ""
-
-msgctxt "predictiveAnalytics|"
 msgid "bsts - linear trend model"
-msgstr ""
-
-msgctxt "predictiveAnalytics|"
-msgid "bsts - linear trend model - regression"
 msgstr ""
 
 msgctxt "predictiveAnalytics|"
@@ -317,11 +324,19 @@ msgid "bsts - autoregressive model"
 msgstr ""
 
 msgctxt "predictiveAnalytics|"
-msgid "bsts - autoregressive model - regression"
+msgid "prophet"
 msgstr ""
 
 msgctxt "predictiveAnalytics|"
-msgid "prophet"
+msgid "linear regression - regression"
+msgstr ""
+
+msgctxt "predictiveAnalytics|"
+msgid "bsts - linear trend model - regression"
+msgstr ""
+
+msgctxt "predictiveAnalytics|"
+msgid "bsts - autoregressive model - regression"
 msgstr ""
 
 msgctxt "predictiveAnalytics|"
@@ -330,6 +345,10 @@ msgstr ""
 
 msgctxt "predictiveAnalytics|"
 msgid "bart - regression"
+msgstr ""
+
+msgctxt "predictiveAnalytics|"
+msgid "linear regression - regression + lag"
 msgstr ""
 
 msgctxt "predictiveAnalytics|"
@@ -441,29 +460,6 @@ msgid "Future Prediction"
 msgstr ""
 
 msgctxt "predictiveAnalytics|"
-msgid "data points"
-msgstr ""
-
-msgctxt "predictiveAnalytics|"
-msgid "All data points"
-msgstr ""
-
-msgctxt "predictiveAnalytics|"
-msgid "Skip between training slices"
-msgstr ""
-
-msgctxt "predictiveAnalytics|"
-msgid "Impute missing values"
-msgstr ""
-
-msgctxt "Description|"
-msgid ""
-"This module offers time series predictions and combines them with quality "
-"control concepts. That way one can predict whether a process will exeed a "
-"specified boundary in the future."
-msgstr ""
-
-msgctxt "predictiveAnalytics|"
 msgid "Prediction type"
 msgstr ""
 
@@ -515,6 +511,10 @@ msgctxt "predictiveAnalytics|"
 msgid "Years"
 msgstr ""
 
-msgctxt "Description|"
-msgid "Predictive Analytics"
+msgctxt "predictiveAnalytics|"
+msgid "data points"
+msgstr ""
+
+msgctxt "predictiveAnalytics|"
+msgid "All data points"
 msgstr ""
