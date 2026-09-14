@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jaspPredictiveAnalytics 0.96.3\n"
 "POT-Creation-Date: 2026-04-25 03:42\n"
-"PO-Revision-Date: 2026-09-14 02:26+0000\n"
+"PO-Revision-Date: 2026-09-15 04:01+0000\n"
 "Last-Translator: Sohrab Delshad <sdel4030@gmail.com>\n"
 "Language-Team: Persian <https://hosted.weblate.org/projects/jasp/"
 "jasppredictiveanalytics-r/fa/>\n"
@@ -53,16 +53,16 @@ msgid "SD"
 msgstr "انحراف معیار"
 
 msgid "Minimum"
-msgstr ""
+msgstr "حداقل"
 
 msgid "Maximum"
-msgstr ""
+msgstr "حداکثر"
 
 msgid "Valid"
-msgstr ""
+msgstr "معتبر"
 
 msgid "Percent"
-msgstr ""
+msgstr "درصد"
 
 msgid "Average Deviation"
 msgstr ""
@@ -104,7 +104,7 @@ msgid "RMSE"
 msgstr ""
 
 msgid "R%s"
-msgstr ""
+msgstr "R%s"
 
 msgid "Cannot train models for future prediction. The data used for training contains only missing values or has a variance of zero, making prediction impossible. Either provide better data or change the training window for future prediction."
 msgstr ""
