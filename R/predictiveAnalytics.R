@@ -17,7 +17,7 @@
 
 # Main function ----
 
-predictiveAnalytics <- function(jaspResults, dataset, options) {
+predictiveAnalyticsInternal <- function(jaspResults, dataset, options) {
    
     ready <- options$dependent != "" & options$time != ""
 
